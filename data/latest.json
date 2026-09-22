@@ -1,0 +1,16 @@
+{
+  "date":"2026-09-22",
+  "status":"Bereit",
+  "intro":"Die Morgenbrief-App ist eingerichtet. Die tägliche Ausgabe wird morgens automatisch aktualisiert.",
+  "quick_read":[
+    {"title":"Weltpolitik","text":"Die wichtigsten geopolitischen Entwicklungen des Tages."},
+    {"title":"Wissenschaft & Wirtschaft","text":"Nur Forschung und Wirtschaftsnachrichten mit größerer Tragweite."},
+    {"title":"Brandenburg","text":"Relevante Entscheidungen aus Landes- und Regionalpolitik."}
+  ],
+  "stories":[
+    {"id":"start-1","category":"weltpolitik","relevance_label":"Bereit","title":"Morgenbrief ist eingerichtet","summary":"Die App kann täglich neue Ausgaben aus einer strukturierten Datendatei laden.","why_it_matters":"Damit bleiben Darstellung und tägliche Recherche voneinander getrennt; die App muss für neue Nachrichten nicht neu programmiert werden.","open_questions":"Die erste automatisch recherchierte Ausgabe ersetzt diesen Startinhalt beim nächsten Lauf.","sources":[]},
+    {"id":"start-2","category":"wirtschaft","relevance_label":"Bereit","title":"Wirtschaft ist fester Bestandteil","summary":"Konjunktur, Inflation, Zinsen, Energie, Industrie und bedeutende Marktbewegungen erhalten einen eigenen Bereich.","why_it_matters":"Reine Kursbewegungen ohne erkennbare wirtschaftliche Bedeutung werden nicht künstlich aufgebläht.","open_questions":"Nur Entwicklungen mit tatsächlicher Relevanz werden aufgenommen.","sources":[]},
+    {"id":"start-3","category":"wissenschaft","relevance_label":"Bereit","title":"Wissenschaft mit Evidenzprüfung","summary":"Wichtige Studien und Forschungsergebnisse werden mit Blick auf Evidenz, Tragweite und Unsicherheiten eingeordnet.","why_it_matters":"Neuigkeit allein genügt nicht; entscheidend ist die wissenschaftliche oder gesellschaftliche Bedeutung.","open_questions":"Vorläufige Befunde und Preprints werden als solche gekennzeichnet.","sources":[]},
+    {"id":"start-4","category":"brandenburg","relevance_label":"Regional","title":"Brandenburg bleibt eigener Nachrichtenbereich","summary":"Landespolitik, Hochschulen, Infrastruktur und größere kommunale Entscheidungen werden separat berücksichtigt.","why_it_matters":"Der Morgenbrief verbindet globale Entwicklungen mit regional unmittelbar relevanten Entscheidungen.","open_questions":"Parteipolitische Bewertungen werden vom gesicherten Sachstand getrennt.","sources":[]}
+  ]
+}
