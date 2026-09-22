@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#f4f1ea">
+<meta name="theme-color" content="#f4f1ea">\n<meta name="mobile-web-app-capable" content="yes">\n<meta name="apple-mobile-web-app-capable" content="yes">\n<meta name="apple-mobile-web-app-status-bar-style" content="default">\n<meta name="apple-mobile-web-app-title" content="Morgenbrief">
 <meta name="description" content="Morgenbrief – täglich kuratierte Nachrichten aus Weltpolitik, Wissenschaft, Wirtschaft und Brandenburg.">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icons/icon.svg">
+<link rel="icon" href="icons/icon.svg">\n<link rel="apple-touch-icon" href="icons/icon-192.png">
 <title>Morgenbrief</title>
 <style>
 :root{--bg:#f4f1ea;--card:#fbfaf7;--muted:#6e6b64;--text:#171816;--line:#d8d2c7;--accent:#194b3f;--soft:#e4ece8}
@@ -17,7 +17,7 @@
 <div class="shell">
 <header class="top"><div class="brand"><span class="mark">M</span><span>Morgenbrief</span></div><span class="eyebrow">Täglich · 07:00</span></header>
 <main>
-<section class="hero"><div class="eyebrow" id="date">Morgenbrief</div><h1>Das Wesentliche für den Tag.</h1><p id="intro">Weltpolitik, Wissenschaft, Wirtschaft und Brandenburg – ausgewählt nach Bedeutung, nicht nach Klickzahl.</p><div class="row"><button class="primary" id="quickBtn">30-Sekunden-Überblick</button><button id="todayBtn">Heute</button><button id="archiveBtn">Archiv</button></div></section>
+<section class="hero"><div class="eyebrow" id="date">Morgenbrief</div><h1>Das Wesentliche für den Tag.</h1><p id="intro">Weltpolitik, Wissenschaft, Wirtschaft und Brandenburg – ausgewählt nach Bedeutung, nicht nach Klickzahl.</p><div class="row"><button class="primary" id="quickBtn">30-Sekunden-Überblick</button><button id="todayBtn">Heute</button><button id="archiveBtn">Archiv</button><button class="primary" id="installBtn" hidden>App installieren</button></div></section>
 <section class="quick" id="quick"><div class="eyebrow">In 30 Sekunden</div><ol id="quickList"></ol></section>
 <section class="controls" id="chips"><button class="chip active" data-cat="all">Alles</button><button class="chip" data-cat="weltpolitik">Weltpolitik</button><button class="chip" data-cat="wissenschaft">Wissenschaft</button><button class="chip" data-cat="wirtschaft">Wirtschaft</button><button class="chip" data-cat="brandenburg">Brandenburg</button><input class="search" id="search" type="search" placeholder="Meldungen durchsuchen"></section>
 <div class="heading"><div><span class="eyebrow">Auswahl</span><h2>Die wichtigsten Entwicklungen</h2></div><span class="count" id="count"></span></div>
@@ -54,6 +54,22 @@ el("todayBtn").addEventListener("click",()=>load());
 el("archiveBtn").addEventListener("click",archive);
 el("archiveList").addEventListener("click",e=>{const b=e.target.closest("[data-path]");if(b)load(b.dataset.path)});
 load().catch(()=>{el("grid").innerHTML='<div class="empty">Der Morgenbrief konnte gerade nicht geladen werden.</div>'});
+let deferredInstallPrompt=null;
+const installBtn=el("installBtn");
+window.addEventListener("beforeinstallprompt",event=>{
+  event.preventDefault();
+  deferredInstallPrompt=event;
+  installBtn.hidden=false;
+});
+installBtn.addEventListener("click",async()=>{
+  if(!deferredInstallPrompt)return;
+  deferredInstallPrompt.prompt();
+  await deferredInstallPrompt.userChoice;
+  deferredInstallPrompt=null;
+  installBtn.hidden=true;
+});
+window.addEventListener("appinstalled",()=>{installBtn.hidden=true;deferredInstallPrompt=null});
+if(window.matchMedia("(display-mode: standalone)").matches) installBtn.hidden=true;
 if("serviceWorker"in navigator)addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js"));
 </script>
 </body>
