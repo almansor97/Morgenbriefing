@@ -17,7 +17,7 @@ import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 
 public class MainActivity extends Activity {
-    private static final String HOME = "https://almansor97.github.io/Morgenbriefing/?app=android";
+    private static final String HOME = "https://almansor97.github.io/Morgenbriefing/?app=android&v=11";
     private WebView webView;
     private ProgressBar progress;
 
@@ -52,13 +52,13 @@ public class MainActivity extends Activity {
         settings.setJavaScriptEnabled(true);
         settings.setDomStorageEnabled(true);
         settings.setDatabaseEnabled(true);
-        settings.setCacheMode(WebSettings.LOAD_DEFAULT);
+        settings.setCacheMode(WebSettings.LOAD_NO_CACHE);
         settings.setAllowFileAccess(false);
         settings.setAllowContentAccess(false);
         settings.setBuiltInZoomControls(false);
         settings.setDisplayZoomControls(false);
         settings.setSupportZoom(false);
-        settings.setUserAgentString(settings.getUserAgentString() + " MorgenbriefAndroid/1.0");
+        settings.setUserAgentString(settings.getUserAgentString() + " MorgenbriefAndroid/1.1");
 
         webView.setWebChromeClient(new WebChromeClient() {
             @Override
@@ -96,7 +96,7 @@ public class MainActivity extends Activity {
             }
         });
 
-        webView.loadUrl(HOME);
+        webView.clearCache(true);\n        webView.clearHistory();\n        webView.loadUrl(HOME);
     }
 
     @Override
