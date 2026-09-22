@@ -1,11 +1,17 @@
 {
+  "id":"./",
   "name":"Morgenbrief",
   "short_name":"Morgenbrief",
-  "description":"Täglicher kuratierter Nachrichtenbrief.",
+  "description":"Täglich kuratierte Nachrichten aus Weltpolitik, Wissenschaft, Wirtschaft und Brandenburg.",
   "start_url":"./",
   "scope":"./",
   "display":"standalone",
+  "display_override":["standalone","minimal-ui"],
   "background_color":"#f4f1ea",
   "theme_color":"#f4f1ea",
-  "icons":[{"src":"icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+  "icons":[
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ]
 }
