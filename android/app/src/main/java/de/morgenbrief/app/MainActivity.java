@@ -96,7 +96,9 @@ public class MainActivity extends Activity {
             }
         });
 
-        webView.clearCache(true);\n        webView.clearHistory();\n        webView.loadUrl(HOME);
+        webView.clearCache(true);
+        webView.clearHistory();
+        webView.loadUrl(HOME);
     }
 
     @Override
