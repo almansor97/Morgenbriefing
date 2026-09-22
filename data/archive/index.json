@@ -1,6 +1,10 @@
 {
   "issues": [
     {
+      "date": "2026-09-22",
+      "path": "data/archive/2026-09-22.json"
+    },
+    {
       "date": "2026-09-21",
       "path": "data/archive/2026-09-21.json"
     }
