@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f4f1ea">
+<meta name="description" content="Morgenbrief – täglich kuratierte Nachrichten aus Weltpolitik, Wissenschaft, Wirtschaft und Brandenburg.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg">
+<title>Morgenbrief</title>
+<style>
+:root{--bg:#f4f1ea;--card:#fbfaf7;--muted:#6e6b64;--text:#171816;--line:#d8d2c7;--accent:#194b3f;--soft:#e4ece8}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}.shell{width:min(1120px,calc(100% - 28px));margin:auto}.top{display:flex;justify-content:space-between;align-items:center;padding:20px 0}.brand{display:flex;align-items:center;gap:12px;font-family:Georgia,serif;font-size:20px;font-weight:700}.mark{width:42px;height:42px;border-radius:13px;background:var(--text);color:var(--bg);display:grid;place-items:center}.hero{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:clamp(28px,6vw,64px)}.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:11px;color:var(--muted);font-weight:800}.hero h1{font:500 clamp(42px,7vw,76px)/.98 Georgia,serif;letter-spacing:-.04em;margin:10px 0 12px}.hero p{max-width:760px;color:var(--muted);font-size:18px}.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}button{min-height:44px;border-radius:999px;border:1px solid var(--line);background:transparent;padding:0 15px;font-weight:700;color:inherit}.primary{background:var(--accent);color:white;border-color:var(--accent)}.quick{display:none;background:var(--soft);border:1px solid var(--line);border-radius:20px;padding:20px;margin-top:16px}.quick.show{display:block}.quick ol{margin:10px 0 0;padding-left:24px}.controls{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0 14px}.chip.active{background:var(--text);color:var(--bg);border-color:var(--text)}.search{margin-left:auto;min-width:min(320px,100%);border:1px solid var(--line);border-radius:999px;padding:0 16px;background:var(--card);height:44px;color:var(--text)}.heading{display:flex;justify-content:space-between;align-items:end;margin:18px 0 12px}.heading h2{margin:2px 0 0;font:500 32px Georgia,serif}.count{color:var(--muted);font-size:13px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px}.card:first-child{grid-column:1/-1}.meta{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.08em}.card h3{font:500 28px/1.08 Georgia,serif;letter-spacing:-.02em;margin:13px 0 10px}.card p{color:var(--muted);margin:0}.detail{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);display:grid;gap:10px}.detail strong{display:block;color:var(--text);font-size:12px;margin-bottom:3px}.sources{display:flex;gap:6px;flex-wrap:wrap;margin-top:16px}.sources a{text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:5px 9px;color:var(--muted);font-size:11px}.empty{padding:32px;border:1px dashed var(--line);border-radius:20px;color:var(--muted);text-align:center}.archive{margin:32px 0;padding:24px;border-radius:24px;background:var(--card);border:1px solid var(--line)}.archive button{margin:4px}footer{display:flex;justify-content:space-between;color:var(--muted);font-size:12px;padding:26px 0 38px}@media(max-width:720px){.grid{grid-template-columns:1fr}.card:first-child{grid-column:auto}.search{margin-left:0;width:100%}.hero{border-radius:22px;padding:28px 22px}.hero h1{font-size:48px}.card h3{font-size:25px}}@media(prefers-color-scheme:dark){:root{--bg:#111318;--card:#191c21;--muted:#aaa9a4;--text:#f1f0ec;--line:#30343b;--accent:#8fc9b7;--soft:#223a32}.primary{color:#102019}}
+</style>
+</head>
+<body>
+<div class="shell">
+<header class="top"><div class="brand"><span class="mark">M</span><span>Morgenbrief</span></div><span class="eyebrow">Täglich · 07:00</span></header>
+<main>
+<section class="hero"><div class="eyebrow" id="date">Morgenbrief</div><h1>Das Wesentliche für den Tag.</h1><p id="intro">Weltpolitik, Wissenschaft, Wirtschaft und Brandenburg – ausgewählt nach Bedeutung, nicht nach Klickzahl.</p><div class="row"><button class="primary" id="quickBtn">30-Sekunden-Überblick</button><button id="todayBtn">Heute</button><button id="archiveBtn">Archiv</button></div></section>
+<section class="quick" id="quick"><div class="eyebrow">In 30 Sekunden</div><ol id="quickList"></ol></section>
+<section class="controls" id="chips"><button class="chip active" data-cat="all">Alles</button><button class="chip" data-cat="weltpolitik">Weltpolitik</button><button class="chip" data-cat="wissenschaft">Wissenschaft</button><button class="chip" data-cat="wirtschaft">Wirtschaft</button><button class="chip" data-cat="brandenburg">Brandenburg</button><input class="search" id="search" type="search" placeholder="Meldungen durchsuchen"></section>
+<div class="heading"><div><span class="eyebrow">Auswahl</span><h2>Die wichtigsten Entwicklungen</h2></div><span class="count" id="count"></span></div>
+<section class="grid" id="grid"></section>
+<section class="archive" id="archive" hidden><span class="eyebrow">Archiv</span><h2>Frühere Ausgaben</h2><div id="archiveList"></div></section>
+</main>
+<footer><span>Morgenbrief</span><span id="foot">Aktuelle Ausgabe</span></footer>
+</div>
+<script>
+const labels={weltpolitik:"Weltpolitik",wissenschaft:"Wissenschaft",wirtschaft:"Wirtschaft",brandenburg:"Brandenburg"};
+let brief=null,cat="all",query="";
+const el=id=>document.getElementById(id);
+function fmt(d){const [y,m,day]=d.split("-").map(Number);return new Intl.DateTimeFormat("de-DE",{weekday:"long",day:"2-digit",month:"long",year:"numeric",timeZone:"UTC"}).format(new Date(Date.UTC(y,m-1,day)))}
+function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function render(){
+ if(!brief)return; const q=query.toLowerCase();
+ const stories=brief.stories.filter(s=>(cat==="all"||s.category===cat)&&(!q||[s.title,s.summary,s.why_it_matters,s.open_questions].join(" ").toLowerCase().includes(q)));
+ el("count").textContent=stories.length+" "+(stories.length===1?"Meldung":"Meldungen");
+ el("grid").innerHTML=stories.length?stories.map(s=>`<article class="card"><div class="meta"><span>${esc(labels[s.category]||s.category)}</span><span>${esc(s.relevance_label||"Relevant")}</span></div><h3>${esc(s.title)}</h3><p>${esc(s.summary)}</p><div class="detail"><div><strong>Warum wichtig</strong><p>${esc(s.why_it_matters)}</p></div><div><strong>Offen / unsicher</strong><p>${esc(s.open_questions||"Keine wesentliche offene Frage hervorgehoben.")}</p></div></div><div class="sources">${(s.sources||[]).map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.name)}</a>`).join("")}</div></article>`).join(""):'<div class="empty">Keine passende Meldung in dieser Ausgabe.</div>';
+}
+async function load(path="data/latest.json"){
+ const r=await fetch(path+"?v="+Date.now(),{cache:"no-store"}); if(!r.ok)throw new Error("HTTP "+r.status); brief=await r.json();
+ el("date").textContent=fmt(brief.date);el("intro").textContent=brief.intro;el("foot").textContent=fmt(brief.date);
+ el("quickList").innerHTML=(brief.quick_read||[]).map(x=>`<li><strong>${esc(x.title)}:</strong> ${esc(x.text)}</li>`).join("");render();
+}
+async function archive(){
+ const r=await fetch("data/archive/index.json?v="+Date.now(),{cache:"no-store"});const d=await r.json();el("archive").hidden=false;
+ el("archiveList").innerHTML=(d.issues||[]).length?(d.issues||[]).map(i=>`<button data-path="${esc(i.path)}">${esc(fmt(i.date))}</button>`).join(""):"Noch keine archivierten Ausgaben.";
+}
+el("chips").addEventListener("click",e=>{const b=e.target.closest("[data-cat]");if(!b)return;cat=b.dataset.cat;document.querySelectorAll(".chip").forEach(x=>x.classList.toggle("active",x===b));render()});
+el("search").addEventListener("input",e=>{query=e.target.value;render()});
+el("quickBtn").addEventListener("click",()=>el("quick").classList.toggle("show"));
+el("todayBtn").addEventListener("click",()=>load());
+el("archiveBtn").addEventListener("click",archive);
+el("archiveList").addEventListener("click",e=>{const b=e.target.closest("[data-path]");if(b)load(b.dataset.path)});
+load().catch(()=>{el("grid").innerHTML='<div class="empty">Der Morgenbrief konnte gerade nicht geladen werden.</div>'});
+if("serviceWorker"in navigator)addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js"));
+</script>
+</body>
+</html>
