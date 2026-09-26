@@ -132,7 +132,7 @@ function render(){
  const q=query.trim().toLowerCase();
  const stories=(brief.stories||[]).filter(s=>{
    const c=normalizedCategory(s);
-   const catMatch=cat==="all"||c===cat;
+   const catMatch=cat==="all" ? c!=="bundesland" : c===cat;
    const stateMatch=cat!=="bundesland"||storyState(s)===selectedState;
    const searchMatch=!q||[s.title,s.hook,s.summary,s.body,s.why_it_matters,s.open_questions,storyState(s)].flat().join(" ").toLowerCase().includes(q);
    return catMatch&&stateMatch&&searchMatch;
