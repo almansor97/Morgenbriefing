@@ -1,7 +1,7 @@
 {
   "date": "2026-09-26",
   "status": "Aktuell",
-  "intro": "Die heutige Ausgabe ist auf das neue Morgenbrief-Schema erweitert: Neben Weltpolitik, Wissenschaft und Wirtschaft gibt es jetzt bundesweite Inland-Nachrichten sowie aktuelle Meldungen aus allen 16 Bundesländern. Schwerpunkt bleiben die Entwicklungen mit den größten politischen, wirtschaftlichen, wissenschaftlichen oder gesellschaftlichen Folgen.",
+  "intro": "Die heutige Ausgabe ist vollständig auf das erweiterte Morgenbrief-Schema gebracht: Weltpolitik, Inland, Wissenschaft und Wirtschaft werden durch einen deutlich ausgebauten Länderbereich ergänzt. Jedes Bundesland enthält nun mindestens drei priorisierte Meldungen aus der aktuellen Nachrichtenlage.",
   "quick_read": [
     {
       "title": "Weltpolitik",
@@ -722,6 +722,666 @@
         {
           "name": "Thüringer Landesamt für Statistik",
           "url": "https://statistik.thueringen.de/presse/pr_kurzinh.asp"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-bw-haushalt",
+      "category": "bundesland",
+      "state": "Baden-Württemberg",
+      "relevance_label": "Haushalt / Schulen",
+      "title": "Baden-Württemberg mobilisiert 1,7 Milliarden Euro für zusätzliche Ausgaben",
+      "hook": "Die Landesregierung will unter anderem tausende Lehrerstellen, zusätzliche Polizeistellen und kommunale Aufgaben finanzieren.",
+      "summary": "Nach SWR-Informationen plant Grün-Schwarz zusätzliche Ausgaben von rund 1,7 Milliarden Euro. Ein Schwerpunkt liegt auf Schulen, Polizei und Kommunen.",
+      "body": [
+        "Vorgesehen sind unter anderem rund 3.400 zusätzliche Lehrerstellen, mehr Personal für Sprachförderung sowie neue Polizeistellen. Ein Teil der Finanzierung soll aus Vorsorgemitteln für Beamte kommen.",
+        "Die Kommunen hatten zuletzt erheblichen zusätzlichen Finanzbedarf angemeldet, unter anderem für Kliniken und Infrastruktur. Die geplanten Mittel lindern den Druck, decken die gesamten Forderungen aber nicht ab.",
+        "Im weiteren Haushaltsverfahren entscheidet sich, welche Projekte tatsächlich finanziert werden und ob die Prioritäten noch verändert werden."
+      ],
+      "why_it_matters": "Die Entscheidung beeinflusst Personal, Bildungsangebote und kommunale Investitionsmöglichkeiten im ganzen Land.",
+      "open_questions": "Offen ist, welche Vorhaben im endgültigen Haushalt bestehen bleiben und wie dauerhaft die neuen Stellen finanziert werden.",
+      "sources": [
+        {
+          "name": "SWR Aktuell",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/gruen-schwarz-schafft-neue-stellen-fuer-lehrkraefte-und-polizisten-auf-kosten-der-vorsorge-fuer-beamte-100.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-bw-avg-streik",
+      "category": "bundesland",
+      "state": "Baden-Württemberg",
+      "relevance_label": "ÖPNV",
+      "title": "Warnstreik schränkt S-Bahn-Verkehr in Karlsruhe und Heilbronn ein",
+      "hook": "Ein Arbeitskampf bei der AVG hat Teile des regionalen Bahnverkehrs getroffen.",
+      "summary": "Am Freitag kam es auf mehreren Linien rund um Karlsruhe und Heilbronn zu Einschränkungen. Der Streik ist Teil laufender Tarifauseinandersetzungen.",
+      "body": [
+        "Die Albtal-Verkehrs-Gesellschaft ist für zentrale Stadtbahn- und Regionalverbindungen im Raum Karlsruhe und Heilbronn verantwortlich. Einschränkungen wirken sich deshalb schnell auf Pendler und Schüler aus.",
+        "Der aktuelle Warnstreik unterstreicht, dass neben Investitionen in Fahrzeuge und Infrastruktur auch Personal- und Tariffragen für die Zuverlässigkeit des Nahverkehrs entscheidend sind."
+      ],
+      "why_it_matters": "Der regionale Schienenverkehr ist für viele Pendler eine zentrale Alternative zum Auto.",
+      "open_questions": "Wie schnell eine Tarifeinigung gelingt und ob weitere Streiks folgen, ist offen.",
+      "sources": [
+        {
+          "name": "SWR Aktuell",
+          "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/bw-newsticker-am-morgen-2026-09-25-100.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-bayern-fernverkehr",
+      "category": "bundesland",
+      "state": "Bayern",
+      "relevance_label": "Bahn / Bundesrat",
+      "title": "Bayern startet Bundesratsinitiative für mehr Wettbewerb im Bahn-Fernverkehr",
+      "hook": "Der Freistaat will die Rahmenbedingungen für Konkurrenz zur Deutschen Bahn verbessern.",
+      "summary": "Bayerns Verkehrsministerium hat eine Bundesratsinitiative zum Wettbewerb im Fernverkehr eingebracht. Ziel ist nach Angaben des Ministeriums ein stärker am Fahrgast orientierter Markt.",
+      "body": [
+        "Im Fernverkehr gibt es deutlich weniger Wettbewerb als im regionalen Schienenverkehr. Bayern fordert deshalb Änderungen an den regulatorischen Bedingungen, damit zusätzliche Anbieter leichter Fernverbindungen aufbauen können.",
+        "Mehr Wettbewerb könnte zusätzliche Verbindungen und Preisdruck bringen, hängt aber stark von Trassenkapazitäten, Zugang zu Bahnhöfen und der Verfügbarkeit geeigneter Fahrzeuge ab."
+      ],
+      "why_it_matters": "Die Regeln für den Fernverkehr beeinflussen Angebot, Preise und Verbindungen von und nach Bayern.",
+      "open_questions": "Ob die Initiative im Bundesrat eine Mehrheit erhält und welche konkreten Gesetzesänderungen daraus entstehen, ist offen.",
+      "sources": [
+        {
+          "name": "Bayerisches Verkehrsministerium",
+          "url": "https://www.bauministerium.bayern.de/med/pressemitteilungen/index.php"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-bayern-ki",
+      "category": "bundesland",
+      "state": "Bayern",
+      "relevance_label": "KI / Wirtschaft",
+      "title": "Bayern setzt mit Mistral-Eröffnung auf Ausbau des KI-Standorts",
+      "hook": "Der Freistaat verbindet neue KI-Investitionen mit dem Ziel, München und Bayern als europäischen Technologiestandort zu stärken.",
+      "summary": "Anlässlich einer Mistral-Eröffnung und der Bits-&-Pretzels-Woche wirbt die Staatsregierung für zusätzliche KI-Investitionen und europäische Technologieunternehmen.",
+      "body": [
+        "Der Wettbewerb um Rechenkapazität, Fachkräfte und KI-Unternehmen hat sich europaweit verschärft. Bayern versucht, bestehende Hochschulen, Forschungseinrichtungen und die Münchner Start-up-Szene stärker mit internationalen Unternehmen zu verknüpfen.",
+        "Entscheidend für die tatsächliche Standortwirkung sind neben Ansiedlungen auch verfügbare Rechenzentren, Energie, Fachkräfte und Kapital."
+      ],
+      "why_it_matters": "KI-Investitionen können langfristig Forschung, Unternehmensgründungen und industrielle Wertschöpfung im Freistaat beeinflussen.",
+      "open_questions": "Wie groß die neuen Investitionen und die Zahl zusätzlicher Arbeitsplätze tatsächlich werden, muss sich in den kommenden Jahren zeigen.",
+      "sources": [
+        {
+          "name": "Bayerische Staatsregierung",
+          "url": "https://www.bayern.de/presse/pressemitteilungen/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-berlin-sondierungen",
+      "category": "bundesland",
+      "state": "Berlin",
+      "relevance_label": "Regierungsbildung",
+      "title": "Linke stimmt für Sondierungen mit Grünen und SPD",
+      "hook": "Nach der Abgeordnetenhauswahl beginnt die konkrete Suche nach einer neuen Berliner Regierungsmehrheit.",
+      "summary": "Die Berliner Linke hat mehrheitlich beschlossen, Sondierungen mit Grünen und SPD aufzunehmen. Vor formellen Koalitionsverhandlungen sollen zunächst zentrale Konfliktfelder geklärt werden.",
+      "body": [
+        "Nach Angaben der beteiligten Parteien sollen zunächst Sicherheit, der Schutz jüdischen und queeren Lebens, Antisemitismus, Rassismus und gesellschaftlicher Zusammenhalt besprochen werden. Erst danach wäre der Einstieg in reguläre Koalitionsverhandlungen vorgesehen.",
+        "Ein weiterer Konfliktpunkt ist der Umgang mit dem Volksentscheid zur Vergesellschaftung großer Wohnungsunternehmen. Die Parteien haben hierzu unterschiedliche Positionen.",
+        "Welche Regierung am Ende zustande kommt, ist damit noch offen; die Gespräche sind ein erster formeller Schritt nach der Wahl."
+      ],
+      "why_it_matters": "Die Verhandlungen entscheiden über die politische Ausrichtung Berlins für die kommende Legislaturperiode.",
+      "open_questions": "Ob Linke, Grüne und SPD genügend gemeinsame Positionen für Koalitionsverhandlungen finden, ist offen.",
+      "sources": [
+        {
+          "name": "rbb24",
+          "url": "https://www.rbb24.de/politik/berlin-wahl-2026/beitraege/berlin-linke-parteitag-entscheidung-sondierung-gruene-spd.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-berlin-cyber",
+      "category": "bundesland",
+      "state": "Berlin",
+      "relevance_label": "Cybersecurity",
+      "title": "Folgen des Hackerangriffs auf die Berliner Verwaltung bleiben erheblich",
+      "hook": "Nach dem Abfluss von rund 1,4 Millionen Dateien dauern Prüfung und Schadensanalyse weiter an.",
+      "summary": "Die Berliner Datenschutzbeauftragte warnt nach dem Angriff auf das Landesnetz vor grundlegenden Schwächen bei Passwort- und Datensicherheit. Betroffene Datensätze werden weiter ausgewertet.",
+      "body": [
+        "Nach rbb-Recherchen wurden unter anderem Zugangsdaten, Personalinformationen, Karten- und Geodaten entwendet. Die Verwaltung untersucht weiterhin, welche Informationen konkret betroffen sind und welche Personen informiert werden müssen.",
+        "Der Vorfall zeigt, dass Cyberangriffe auf Verwaltungen nicht nur IT-Ausfälle verursachen, sondern langfristige Risiken durch weiterverkaufte oder veröffentlichte Daten erzeugen können.",
+        "Die Behörden müssen nun technische Systeme härten, Zugänge ändern und zugleich klären, welche organisatorischen Fehler den Angriff erleichtert haben."
+      ],
+      "why_it_matters": "Der Angriff betrifft sensible staatliche Daten und die Funktionsfähigkeit zentraler Verwaltungsbereiche.",
+      "open_questions": "Unklar bleibt, wie umfassend die entwendeten Daten genutzt oder weitergegeben wurden und welche strukturellen Sicherheitsmaßnahmen folgen.",
+      "sources": [
+        {
+          "name": "rbb24",
+          "url": "https://www.rbb24.de/politik/beitrag/2026/09/interview-meike-kamp-datenschutzbeauftragte-berlin.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-brandenburg-geburtskliniken",
+      "category": "bundesland",
+      "state": "Brandenburg",
+      "relevance_label": "Gesundheitsversorgung",
+      "title": "Proteste gegen Schließungen von Geburtskliniken in Ostbrandenburg",
+      "hook": "Bürger und Beschäftigte wenden sich gegen eine weitere Ausdünnung wohnortnaher Geburtshilfe.",
+      "summary": "In Ostbrandenburg gab es Proteste gegen geplante oder bereits angekündigte Schließungen von Geburtsstationen. Betroffene warnen vor längeren Wegen für Schwangere.",
+      "body": [
+        "Geburtskliniken stehen besonders in ländlichen Regionen unter Druck, weil Geburtenzahlen, Fachkräftemangel und wirtschaftliche Vorgaben zusammentreffen. Jede Schließung vergrößert für einen Teil der Bevölkerung die Entfernung zur nächsten Klinik.",
+        "Krankenhausträger argumentieren häufig mit Personal- und Qualitätsanforderungen; Kritiker sehen dagegen Risiken für die regionale Daseinsvorsorge. Der Konflikt dürfte auch in der weiteren Krankenhausplanung des Landes eine Rolle spielen."
+      ],
+      "why_it_matters": "Geburtshilfe ist zeitkritische medizinische Versorgung und für dünn besiedelte Regionen ein zentraler Bestandteil der Infrastruktur.",
+      "open_questions": "Welche Standorte dauerhaft erhalten bleiben und wie das Land Erreichbarkeit und Personalversorgung absichert, ist offen.",
+      "sources": [
+        {
+          "name": "rbb24 Brandenburg aktuell",
+          "url": "https://www.rbb24.de/videos/rbb24-brandenburg-aktuell/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-bremen-autoposer",
+      "category": "bundesland",
+      "state": "Bremen",
+      "relevance_label": "Verkehr / Polizei",
+      "title": "Bremen wirbt im Bundesrat für härteres Vorgehen gegen Autoposer",
+      "hook": "Der Senat will Städten und Polizei mehr Instrumente gegen besonders laute und gefährliche Fahrmanöver geben.",
+      "summary": "Bremen hat eine Bundesratsinitiative gestartet, die zusätzliche Befugnisse im Umgang mit der sogenannten Autoposer-Szene ermöglichen soll.",
+      "body": [
+        "Im Mittelpunkt stehen Fahrzeuge und Fahrweisen, die durch unnötigen Lärm, Beschleunigungsrennen oder riskantes Verhalten auffallen. Bremen will rechtliche Möglichkeiten erweitern, um nicht nur Fahrer, sondern auch Halter und Fahrzeuge wirksamer einzubeziehen.",
+        "Ob daraus Bundesrecht wird, hängt von der Unterstützung weiterer Länder und anschließend vom Gesetzgebungsverfahren auf Bundesebene ab."
+      ],
+      "why_it_matters": "Die Initiative betrifft Verkehrssicherheit, Lärmschutz und die Befugnisse kommunaler und polizeilicher Behörden.",
+      "open_questions": "Noch ist offen, ob genügend Länder die Initiative unterstützen und welche konkreten Sanktionen am Ende vorgeschlagen werden.",
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/nachrichten/nachrichten738.html?category=politik"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-bremen-bahnbrand",
+      "category": "bundesland",
+      "state": "Bremen",
+      "relevance_label": "Bahnverkehr",
+      "title": "Brandfolgen stören weiter Bahnverkehr zwischen Bremen und Hannover",
+      "hook": "Nach einem Brand bleiben wichtige Regional- und Fernverbindungen beeinträchtigt.",
+      "summary": "Die Bahnstrecke zwischen Bremen und Hannover war auch am Freitag noch nicht vollständig normal befahrbar. Züge fielen aus oder wurden umgeleitet.",
+      "body": [
+        "Die Verbindung ist eine zentrale Achse für Pendler und Fernverkehr im Nordwesten. Schäden nach dem Brand erfordern Reparaturen, wodurch sich Fahrzeiten verlängern und Anschlüsse schwieriger werden.",
+        "Solche Störungen zeigen die geringe Ausweichkapazität stark ausgelasteter Bahnnetze: Fällt ein wichtiger Abschnitt aus, verteilen sich Auswirkungen schnell auf mehrere Linien."
+      ],
+      "why_it_matters": "Die Strecke verbindet Bremen mit Hannover und dem übrigen Fernverkehrsnetz und ist für Pendler wie Unternehmen wichtig.",
+      "open_questions": "Wann der reguläre Betrieb vollständig wiederhergestellt wird, hängt vom Fortschritt der Reparaturarbeiten ab.",
+      "sources": [
+        {
+          "name": "buten un binnen",
+          "url": "https://www.butenunbinnen.de/nachrichten/nachrichten738~_category-service_from-0_site-butenunbinnen_till-0.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-hamburg-a7",
+      "category": "bundesland",
+      "state": "Hamburg",
+      "relevance_label": "Verkehr",
+      "title": "A7 und Elbtunnel am Wochenende erneut vollständig gesperrt",
+      "hook": "Bauarbeiten am Autobahnausbau legen eine der wichtigsten Nord-Süd-Verbindungen Hamburgs zeitweise lahm.",
+      "summary": "Der Elbtunnel und Teile der A7 werden für Bauarbeiten von Freitagabend bis Montagmorgen gesperrt. Autofahrer müssen großräumig ausweichen.",
+      "body": [
+        "Die A7 ist eine der wichtigsten Verkehrsachsen Norddeutschlands. Vollsperrungen erzeugen deshalb regelmäßig erhebliche Belastungen auf innerstädtischen und regionalen Ausweichstrecken.",
+        "Die Arbeiten sind Teil des langfristigen Ausbaus der Autobahn. Kurzfristig bedeutet die Sperrung mehr Verkehr auf Alternativrouten und mögliche Verzögerungen für Güter- und Reiseverkehr."
+      ],
+      "why_it_matters": "Die A7 und der Elbtunnel sind für Hafenlogistik, Pendler und Fernverkehr von zentraler Bedeutung.",
+      "open_questions": "Wie stark die Ausweichstrecken belastet werden und ob die Arbeiten planmäßig abgeschlossen werden, zeigt sich am Wochenende.",
+      "sources": [
+        {
+          "name": "NDR Hamburg",
+          "url": "https://www.ndr.de/nachrichten/hamburg/Meistgeklickt-Beliebte-Artikel-und-Videos-in-Hamburg%2Cmeistgelesen110.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-hamburg-koehlbrand",
+      "category": "bundesland",
+      "state": "Hamburg",
+      "relevance_label": "Hafen / Infrastruktur",
+      "title": "Senat lehnt provisorische Ersatzbrücke für Köhlbrandquerung ab",
+      "hook": "Bis zum geplanten Neubau der Köhlbrandbrücke bleibt die bestehende Verbindung länger ein kritischer Engpass.",
+      "summary": "Der Hamburger Senat hat nach NDR-Angaben eine provisorische Ersatzbrücke verworfen. Der geplante Neubau wird voraussichtlich erst Anfang der 2040er-Jahre fertig.",
+      "body": [
+        "Die Köhlbrandbrücke ist eine Schlüsselverbindung im Hafen und für Schwer- sowie Lieferverkehr besonders wichtig. Ihr langfristiger Ersatz ist technisch aufwendig und mit hohen Kosten verbunden.",
+        "Der Verzicht auf ein Provisorium spart zusätzliche Bau- und Planungskosten, erhöht aber die Bedeutung von Instandhaltung und verlässlicher Nutzbarkeit der bestehenden Brücke bis zum Neubau."
+      ],
+      "why_it_matters": "Störungen an der Köhlbrandquerung können den Hamburger Hafen und überregionale Lieferketten unmittelbar treffen.",
+      "open_questions": "Wie die bestehende Brücke bis zum Neubau zuverlässig betrieben wird und welche Zwischenmaßnahmen nötig werden, bleibt zentral.",
+      "sources": [
+        {
+          "name": "NDR Hamburg",
+          "url": "https://www.ndr.de/nachrichten/hamburg/Meistgeklickt-Beliebte-Artikel-und-Videos-in-Hamburg%2Cmeistgelesen110.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-hessen-bafoeg",
+      "category": "bundesland",
+      "state": "Hessen",
+      "relevance_label": "Hochschulen / Digitalisierung",
+      "title": "Hessen fordert vollständig digitales BAföG-Verfahren",
+      "hook": "Wissenschaftsminister Timon Gremmels wirbt im Bundesrat für durchgängig digitale Antragstellung und Dokumentenübermittlung.",
+      "summary": "Hessen will das BAföG-Verfahren stärker digitalisieren. Ziel ist, Antragstellung, Nachweise und Kommunikation ohne Medienbrüche abzuwickeln.",
+      "body": [
+        "Studierende kritisieren seit Jahren lange Bearbeitungszeiten und komplizierte Nachweiswege. Ein vollständig digitales Verfahren könnte Daten schneller übertragen und Bearbeitungsschritte automatisieren.",
+        "Da BAföG Bundesrecht ist, kann Hessen eine solche Reform nicht allein umsetzen. Die Initiative richtet sich deshalb an den Bund und andere Länder."
+      ],
+      "why_it_matters": "Schnellere BAföG-Verfahren können unmittelbar beeinflussen, wie verlässlich Studierende ihre Lebenshaltung finanzieren können.",
+      "open_questions": "Ob der Bund die nötigen rechtlichen und technischen Änderungen übernimmt, ist offen.",
+      "sources": [
+        {
+          "name": "Hessische Landesregierung",
+          "url": "https://pressearchiv.hessen.de/presse"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-hessen-mieterschutz",
+      "category": "bundesland",
+      "state": "Hessen",
+      "relevance_label": "Wohnen",
+      "title": "Hessen will Mieterschutz auf 71 Kommunen ausweiten",
+      "hook": "Mehr Städte und Gemeinden sollen künftig unter besondere Regeln für angespannte Wohnungsmärkte fallen.",
+      "summary": "Die Landesregierung plant, den Geltungsbereich besonderer Mieterschutzregeln von bisher 49 auf 71 Kommunen zu erweitern.",
+      "body": [
+        "Solche Verordnungen können unter anderem Mietpreisbremse und weitere Schutzinstrumente für Gebiete mit angespanntem Wohnungsmarkt aktivieren. Grundlage sind Daten zu Mieten, Nachfrage und Wohnungsversorgung.",
+        "Die Erweiterung zeigt, dass sich Wohnungsengpässe nicht mehr nur auf Frankfurt und wenige Ballungsräume beschränken. Gleichzeitig bleiben Neubau und Nachverdichtung entscheidend, weil Regulierung allein keinen zusätzlichen Wohnraum schafft."
+      ],
+      "why_it_matters": "Die Regelung kann Miethöhen und Rechte von Mietern in zahlreichen hessischen Kommunen direkt beeinflussen.",
+      "open_questions": "Welche Kommunen endgültig aufgenommen werden und wie sich die Regel praktisch auf Mieten auswirkt, bleibt zu beobachten.",
+      "sources": [
+        {
+          "name": "Hessen Wirtschaft",
+          "url": "https://wirtschaft.hessen.de/Presse/?page=0"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-mv-regierungsbildung",
+      "category": "bundesland",
+      "state": "Mecklenburg-Vorpommern",
+      "relevance_label": "Regierungsbildung",
+      "title": "SPD will nach der Landtagswahl mit Linken und Grünen sprechen",
+      "hook": "Nach der Wahl laufen in Mecklenburg-Vorpommern Gespräche über eine mögliche neue Regierungsmehrheit.",
+      "summary": "Die SPD hat Gespräche mit Linken und Grünen angekündigt. Die AfD stellt sich nach Angaben des NDR auf Oppositionsarbeit ein.",
+      "body": [
+        "Die Landtagswahl vom 20. September hat die Kräfteverhältnisse im Schweriner Landtag deutlich verändert. Für eine Regierungsbildung sind nun neue Mehrheiten erforderlich.",
+        "Gespräche zwischen Parteien bedeuten noch keine Koalition. Inhaltliche Fragen, Ressortverteilung und personelle Entscheidungen müssen erst verhandelt werden.",
+        "Parallel läuft die organisatorische Vorbereitung des neuen Landtags und die Besetzung wichtiger parlamentarischer Ämter."
+      ],
+      "why_it_matters": "Die Regierungsbildung entscheidet über die politische Ausrichtung des Landes in den kommenden Jahren.",
+      "open_questions": "Ob aus den Gesprächen eine belastbare Koalitionsvereinbarung entsteht, ist offen.",
+      "sources": [
+        {
+          "name": "NDR Mecklenburg-Vorpommern",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/landtagswahl"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-mv-olympia",
+      "category": "bundesland",
+      "state": "Mecklenburg-Vorpommern",
+      "relevance_label": "Sport / Infrastruktur",
+      "title": "Warnemünde bleibt im Rennen um einen möglichen olympischen Segelstandort",
+      "hook": "Die Entscheidung über eine deutsche Olympia-Bewerbung könnte für Rostock-Warnemünde erhebliche Infrastrukturfolgen haben.",
+      "summary": "Warnemünde konkurriert als möglicher Segelstandort mit Kiel. Eine deutsche Bewerbung für Olympische und Paralympische Spiele würde langfristige Investitionen und Planungen auslösen.",
+      "body": [
+        "Der Standort bringt Erfahrung mit großen Segelveranstaltungen und eine bestehende maritime Infrastruktur ein. Für olympische Wettbewerbe wären dennoch zusätzliche Verkehrs-, Hafen- und Veranstaltungsinvestitionen nötig.",
+        "Ob Warnemünde tatsächlich Teil der deutschen Bewerbung wird, hängt von Entscheidungen der Bewerberregionen und des Deutschen Olympischen Sportbundes ab."
+      ],
+      "why_it_matters": "Eine Auswahl hätte langfristige Folgen für Infrastruktur, Tourismus und öffentliche Investitionen in Rostock und der Küstenregion.",
+      "open_questions": "Noch ist nicht entschieden, welcher Segelstandort Teil der deutschen Bewerbung wird und ob Deutschland international den Zuschlag erhielte.",
+      "sources": [
+        {
+          "name": "NDR Mecklenburg-Vorpommern",
+          "url": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/NDR-MV-News-Ticker-Alle-Nachrichten-aus-Mecklenburg-Vorpommern%2Cnachrichtenmvticker102.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-nds-tankregel",
+      "category": "bundesland",
+      "state": "Niedersachsen",
+      "relevance_label": "Verbraucher / Kraftstoff",
+      "title": "Niedersachsen will andere Uhrzeit für die Tankpreisregel",
+      "hook": "Das Wirtschaftsministerium spricht sich dafür aus, die bestehende 12-Uhr-Regel zu verändern.",
+      "summary": "Während der ADAC die Regel ganz abschaffen möchte, schlägt Niedersachsen eine andere Uhrzeit für die gesetzliche Preislogik an Tankstellen vor.",
+      "body": [
+        "Die Regel soll Preisveränderungen für Verbraucher nachvollziehbarer machen. In Zeiten hoher Kraftstoffpreise ist die Frage besonders relevant, ob Regulierung tatsächlich niedrigere Preise fördert oder nur Preiszyklen verschiebt.",
+        "Der niedersächsische Vorschlag ist Teil einer bundesweiten Debatte und müsste auf Bundesebene umgesetzt werden."
+      ],
+      "why_it_matters": "Kraftstoffpreise treffen Pendler und Unternehmen in einem Flächenland besonders stark.",
+      "open_questions": "Ob der Bund die Uhrzeit verändert oder das System grundsätzlich neu ordnet, ist offen.",
+      "sources": [
+        {
+          "name": "NDR Niedersachsen",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/NDR-Niedersachsen-Unsere-Themen-bei-Instagram%2Cndrniedersachsen100.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-nds-osnabrueck-studie",
+      "category": "bundesland",
+      "state": "Niedersachsen",
+      "relevance_label": "Kirche / Aufarbeitung",
+      "title": "Studie untersucht spirituellen Missbrauch im Bistum Osnabrück",
+      "hook": "Eine neue Untersuchung befasst sich mit Vorwürfen von Demütigung, Kontrolle und Unterwerfung in einer kirchlichen Gemeinschaft.",
+      "summary": "Im Unterschied zu sexualisierter Gewalt ist spiritueller Missbrauch bislang deutlich weniger systematisch erforscht. Eine neue Studie untersucht entsprechende Vorwürfe im Bistum Osnabrück.",
+      "body": [
+        "Spiritueller Missbrauch beschreibt den Einsatz religiöser Autorität zur Kontrolle oder Manipulation von Menschen. Die Aufarbeitung ist methodisch schwierig, weil Grenzen zwischen freiwilliger religiöser Praxis und missbräuchlichem Machtverhalten bewertet werden müssen.",
+        "Die Studie kann für kirchliche Schutzkonzepte und institutionelle Aufarbeitung über den konkreten Fall hinaus Bedeutung haben."
+      ],
+      "why_it_matters": "Institutionelle Aufarbeitung beeinflusst Schutzstandards und Vertrauen in kirchliche Einrichtungen.",
+      "open_questions": "Welche strukturellen Konsequenzen das Bistum aus den Ergebnissen zieht, wird sich nach der vollständigen Auswertung zeigen.",
+      "sources": [
+        {
+          "name": "NDR Niedersachsen",
+          "url": "https://www.ndr.de/fernsehen/sendungen/hallo_niedersachsen/Hallo-Niedersachsen%2Challonds-10478.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-nrw-schrottimmobilien",
+      "category": "bundesland",
+      "state": "Nordrhein-Westfalen",
+      "relevance_label": "Kommunen / Sozialbetrug",
+      "title": "Landesweite Kontrollen gegen Schrottimmobilien und möglichen Sozialbetrug",
+      "hook": "Behörden haben in mehreren NRW-Städten problematische Immobilien kontrolliert und mögliche Betrugsfälle geprüft.",
+      "summary": "Polizei und weitere Behörden führten landesweit Kontrollen in sogenannten Schrottimmobilien durch. Im Fokus standen Wohnzustände und mögliche unrechtmäßige Sozialleistungsbezüge.",
+      "body": [
+        "Solche Häuser sind häufig durch schlechte Wohnverhältnisse, überhöhte Belegung und komplizierte Eigentumsstrukturen geprägt. Kommunen berichten seit Jahren über Schwierigkeiten, Missstände schnell zu beseitigen.",
+        "Bei den Kontrollen geht es sowohl um Bau- und Ordnungsrecht als auch um die Frage, ob Leistungen unter falschen Angaben bezogen wurden. Einzelne Verdachtsfälle sind dabei noch keine festgestellten Straftaten."
+      ],
+      "why_it_matters": "Schrottimmobilien verbinden Wohnungs-, Sozial-, Sicherheits- und Kommunalpolitik und belasten insbesondere einige Großstädte stark.",
+      "open_questions": "Wie viele konkrete Verfahren aus den Kontrollen entstehen und ob Kommunen zusätzliche rechtliche Instrumente erhalten, ist offen.",
+      "sources": [
+        {
+          "name": "WDR",
+          "url": "https://www1.wdr.de/nachrichten/uebersicht-landespolitik-100.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-nrw-ganztag",
+      "category": "bundesland",
+      "state": "Nordrhein-Westfalen",
+      "relevance_label": "Schule / Betreuung",
+      "title": "Nicht alle Erstklässler erhalten zum Start des Rechtsanspruchs einen Ganztagsplatz",
+      "hook": "Eine WDR-Erhebung zeigt Lücken beim Ausbau der offenen Ganztagsbetreuung.",
+      "summary": "Zum Start des neuen Rechtsanspruchs können nicht alle Familien in NRW einen gewünschten Ganztagsplatz erhalten. Kommunen und Schulen arbeiten weiter am Ausbau.",
+      "body": [
+        "Der Anspruch erhöht den Druck auf Kommunen, Schulen und Träger, ausreichend Räume und Personal bereitzustellen. Besonders in wachsenden Städten ist die Nachfrage höher als das kurzfristig verfügbare Angebot.",
+        "Die Situation zeigt, dass gesetzliche Ansprüche und tatsächliche Kapazitäten auseinanderfallen können. Entscheidend sind Investitionen in Gebäude, Betreuungspersonal und organisatorische Modelle."
+      ],
+      "why_it_matters": "Ganztagsbetreuung ist für Vereinbarkeit von Familie und Beruf sowie Bildungschancen zentral.",
+      "open_questions": "Wie schnell die fehlenden Plätze aufgebaut werden und welche Kommunen besonders betroffen bleiben, ist offen.",
+      "sources": [
+        {
+          "name": "WDR aktuell",
+          "url": "https://www1.wdr.de/nachrichten/wdr-aktuell-120.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-rlp-f16",
+      "category": "bundesland",
+      "state": "Rheinland-Pfalz",
+      "relevance_label": "Sicherheit / Militär",
+      "title": "Ursache des F-16-Absturzes in Spangdahlem wird weiter untersucht",
+      "hook": "Der Pilot konnte sich mit dem Schleudersitz retten; die Maschine wurde vollständig zerstört.",
+      "summary": "Nach dem Absturz einer F-16 auf der US-Airbase Spangdahlem laufen Bergung und technische Untersuchung weiter. Der Pilot wurde leicht verletzt und konnte das Krankenhaus wieder verlassen.",
+      "body": [
+        "Die Ermittlungen werden vor allem von amerikanischen Stellen geführt. Die Maschine stürzte im Bereich der Airbase ab, wodurch keine weiteren Menschen verletzt wurden.",
+        "Für die Region ist der Vorfall wegen der militärischen Bedeutung des Standorts und möglicher Sicherheitsfragen relevant. Die genaue Unfallursache ist bislang nicht bekannt."
+      ],
+      "why_it_matters": "Spangdahlem ist ein wichtiger US-Militärstandort in Deutschland; Flugunfälle haben lokale Sicherheits- und Umweltfolgen.",
+      "open_questions": "Die technische Ursache des Absturzes und mögliche Konsequenzen für den Flugbetrieb sind noch offen.",
+      "sources": [
+        {
+          "name": "SWR Aktuell",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/trier/kampfjet-absturz-us-airbase-spangdahlem-ermittlungen-ursache-100.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-rlp-heizoel",
+      "category": "bundesland",
+      "state": "Rheinland-Pfalz",
+      "relevance_label": "Energie / Haushalte",
+      "title": "Heizölpreise belasten Haushalte vor Beginn der Heizsaison",
+      "hook": "Viele Haushalte in Rheinland-Pfalz stehen vor deutlich höheren Kosten für das Auffüllen ihrer Tanks.",
+      "summary": "Nach SWR-Recherchen sind Heizölpreise seit Jahresbeginn stark gestiegen. Besonders relevant ist das in Rheinland-Pfalz, wo Öl- und Gasheizungen weit verbreitet sind.",
+      "body": [
+        "Der SWR berichtet von Preisen, die sich im Jahresverlauf erheblich erhöht haben. Haushalte stehen deshalb vor der Entscheidung, jetzt zu bestellen oder auf eine Entspannung des Ölmarktes zu hoffen.",
+        "Der beschlossene Tankrabatt für Kraftstoffe gilt nicht automatisch für Heizöl. Damit bleibt der internationale Ölpreis ein unmittelbares Risiko für die Heizkosten vieler Haushalte."
+      ],
+      "why_it_matters": "Heizkosten wirken direkt auf die verfügbaren Einkommen und treffen besonders Eigentümer älterer Gebäude.",
+      "open_questions": "Ob sich der Ölpreis vor dem Winter deutlich entspannt, hängt stark von der internationalen Energie- und Sicherheitslage ab.",
+      "sources": [
+        {
+          "name": "SWR Aktuell",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/teures-heizoel-jetzt-kaufen-oder-lieber-warten-100.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-saar-saarlouis-haushalt",
+      "category": "bundesland",
+      "state": "Saarland",
+      "relevance_label": "Kommunalfinanzen",
+      "title": "Saarlouis beschließt Investitionen von rund 55 Millionen Euro",
+      "hook": "Schulen und Feuerwehr gehören zu den größten Investitionsblöcken der Stadt.",
+      "summary": "Der Stadtrat von Saarlouis hat einen Haushalt mit rund 55 Millionen Euro Investitionen beschlossen. Je etwa zehn Millionen Euro sollen in Schulen und Feuerwehr fließen.",
+      "body": [
+        "Der Haushalt sieht zugleich ein erhebliches Defizit vor, das aus Rücklagen ausgeglichen werden soll. Als Belastungen nennt die Stadt unter anderem eine höhere Kreisumlage und niedrigere Schlüsselzuweisungen.",
+        "Das Beispiel zeigt den schwierigen Spagat vieler Kommunen: hohe Investitionsbedarfe treffen auf steigende laufende Ausgaben und begrenzte Einnahmen."
+      ],
+      "why_it_matters": "Kommunale Investitionen bestimmen unmittelbar den Zustand von Schulen, Feuerwehr und Infrastruktur.",
+      "open_questions": "Wie lange Rücklagen zur Finanzierung hoher Defizite ausreichen und wie sich die Einnahmen entwickeln, bleibt offen.",
+      "sources": [
+        {
+          "name": "SR Regionalnachrichten",
+          "url": "https://wwwbeta.sr.de/sr/home/nachrichten/region_kompakt/regionalnachrichten/index.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-saar-oepnv",
+      "category": "bundesland",
+      "state": "Saarland",
+      "relevance_label": "ÖPNV / Handel",
+      "title": "Saarland macht Bus und Bahn an Adventssamstagen kostenlos",
+      "hook": "Die Landesregierung will damit Innenstädte stärken und zusätzliche Fahrgäste für den Nahverkehr gewinnen.",
+      "summary": "An vier Adventssamstagen sollen Busse und Bahnen im Saarland ohne Fahrschein genutzt werden können. Zusätzlich ist eine neue Expressbuslinie angekündigt.",
+      "body": [
+        "Die Maßnahme verbindet Verkehrspolitik mit dem Ziel, den Einzelhandel in den Innenstädten zu unterstützen. Der Handelsverband erwartet zusätzliche Besucher, auch von Menschen, die sonst selten öffentliche Verkehrsmittel nutzen.",
+        "Ob die Aktion dauerhaft Wirkung auf das Mobilitätsverhalten hat, hängt davon ab, ob Fahrgäste nach den kostenlosen Tagen den ÖPNV weiter nutzen."
+      ],
+      "why_it_matters": "Das Saarland testet damit einen landesweiten preislichen Anreiz für öffentlichen Verkehr und Innenstadthandel.",
+      "open_questions": "Kosten, Fahrgastzuwachs und mögliche Fortführung nach der Adventszeit werden erst nach der Auswertung sichtbar.",
+      "sources": [
+        {
+          "name": "Saarland.de",
+          "url": "https://www.saarland.de/DE/home"
+        },
+        {
+          "name": "SR Regionalnachrichten",
+          "url": "https://wwwbeta.sr.de/sr/home/nachrichten/region_kompakt/regionalnachrichten/index.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-sachsen-schwimmbaeder",
+      "category": "bundesland",
+      "state": "Sachsen",
+      "relevance_label": "Infrastruktur",
+      "title": "Acht sächsische Schwimmbadprojekte erhalten Bundesmittel",
+      "hook": "Mittel aus dem Sondervermögen für Infrastruktur und Klimaneutralität fließen in die Sanierung mehrerer Bäder.",
+      "summary": "In Sachsen profitieren acht Schwimmbadprojekte von neuen Fördermitteln. Viele kommunale Bäder stehen wegen hoher Sanierungskosten unter Druck.",
+      "body": [
+        "Schwimmbäder sind kostenintensive kommunale Infrastruktur: Energieverbrauch, technische Anlagen und Gebäudesanierung verursachen hohe laufende und investive Kosten.",
+        "Die Fördermittel können einzelne Standorte modernisieren und längerfristig sichern. Sie ersetzen jedoch keine dauerhafte Lösung für Betriebskosten und kommunale Haushaltsprobleme."
+      ],
+      "why_it_matters": "Schwimmbäder sind für Schulsport, Schwimmausbildung und kommunale Freizeitangebote wichtig.",
+      "open_questions": "Wie hoch die Eigenanteile der Kommunen bleiben und welche Projekte tatsächlich vollständig umgesetzt werden, ist offen.",
+      "sources": [
+        {
+          "name": "MDR Sachsen",
+          "url": "https://www.mdr.de/nachrichten/sachsen"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-sachsen-waldkalkung",
+      "category": "bundesland",
+      "state": "Sachsen",
+      "relevance_label": "Wald / Umwelt",
+      "title": "Wälder im Osterzgebirge werden aus der Luft gekalkt",
+      "hook": "Hubschrauber bringen Kalk aus, um stark versauerte Böden zu stabilisieren.",
+      "summary": "Im Osterzgebirge laufen Maßnahmen gegen Bodenversauerung. Kalk wird gezielt auf Waldflächen verteilt, um Nährstoffhaushalt und Bodenchemie zu verbessern.",
+      "body": [
+        "Versauerte Waldböden sind eine langfristige Folge früherer Luftschadstoffeinträge und können Bäume gegenüber Trockenheit und anderen Belastungen anfälliger machen.",
+        "Die Kalkung soll den pH-Wert und die Nährstoffverfügbarkeit verbessern. Solche Maßnahmen werden fachlich geplant und sind kein Ersatz für Klimaanpassung oder langfristige Emissionsminderung."
+      ],
+      "why_it_matters": "Gesunde Waldböden beeinflussen Wasserspeicherung, Baumstabilität und die Anpassungsfähigkeit der Wälder.",
+      "open_questions": "Wie stark die Maßnahme langfristig wirkt, hängt von Standort, Baumarten und weiterer Klimaentwicklung ab.",
+      "sources": [
+        {
+          "name": "MDR Sachsen",
+          "url": "https://www.mdr.de/nachrichten/sachsen"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-st-pflegeazubis",
+      "category": "bundesland",
+      "state": "Sachsen-Anhalt",
+      "relevance_label": "Pflege / Fachkräfte",
+      "title": "Mehr junge Menschen beginnen in Sachsen-Anhalt eine Pflegeausbildung",
+      "hook": "Nach Jahren des Fachkräftemangels gibt es bei den Pflegeausbildungen ein positives Signal.",
+      "summary": "Der MDR berichtet von einem deutlichen Anstieg junger Menschen, die eine Ausbildung in der Pflege beginnen.",
+      "body": [
+        "Der Pflegebereich gehört zu den Branchen mit besonders großem Personalbedarf. Mehr Auszubildende können die Lage langfristig verbessern, ersetzen aber nicht die hohe Zahl von Beschäftigten, die in den kommenden Jahren in Rente gehen.",
+        "Entscheidend ist deshalb nicht nur der Ausbildungsstart, sondern auch, wie viele Auszubildende ihren Abschluss schaffen und anschließend im Beruf bleiben."
+      ],
+      "why_it_matters": "Der Fachkräftemangel in Pflegeeinrichtungen und Krankenhäusern wirkt unmittelbar auf Versorgung und Arbeitsbelastung.",
+      "open_questions": "Ob der Anstieg dauerhaft ist und wie hoch die spätere Verbleibsquote im Beruf ausfällt, bleibt offen.",
+      "sources": [
+        {
+          "name": "MDR Sachsen-Anhalt",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-st-neuer-landtag",
+      "category": "bundesland",
+      "state": "Sachsen-Anhalt",
+      "relevance_label": "Landtag / Regierungsbildung",
+      "title": "Neuer Landtag bereitet konstituierende Sitzung am 6. Oktober vor",
+      "hook": "Nach der Landtagswahl werden Ausschussgrößen, Sitzordnung und zentrale Parlamentsämter vorbereitet.",
+      "summary": "Ein Vor-Ältestenrat arbeitet die organisatorischen Grundlagen für die erste Sitzung des neuen Landtags aus. Parallel bleibt die Regierungsbildung offen.",
+      "body": [
+        "Die konstituierende Sitzung ist der formelle Start des neuen Parlaments. Dort werden unter anderem Präsidium und weitere parlamentarische Funktionen bestimmt.",
+        "Die Wahl hat die Kräfteverhältnisse verändert, sodass auch die Sitzordnung, Ausschussbesetzung und spätere Mehrheitsbildung neu organisiert werden müssen.",
+        "Parlamentarische Organisation und Regierungsbildung sind getrennte Prozesse; eine neue Regierung muss nicht zwingend bereits zur ersten Sitzung feststehen."
+      ],
+      "why_it_matters": "Die Entscheidungen bestimmen die Arbeitsfähigkeit und Machtverteilung im neu gewählten Parlament.",
+      "open_questions": "Welche Regierung gebildet wird und wie zentrale Landtagsämter besetzt werden, ist weiterhin offen.",
+      "sources": [
+        {
+          "name": "MDR Sachsen-Anhalt",
+          "url": "https://www.mdr.de/nachrichten/sachsen-anhalt"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-sh-staedtebau",
+      "category": "bundesland",
+      "state": "Schleswig-Holstein",
+      "relevance_label": "Städtebau",
+      "title": "Mehr als 85 Millionen Euro fließen in die Städtebauförderung",
+      "hook": "Kommunen in Schleswig-Holstein erhalten neue Mittel für Quartiere, Zentren und öffentliche Infrastruktur.",
+      "summary": "Nach NDR-Angaben stehen mehr als 85 Millionen Euro für Städtebauförderung im Land bereit.",
+      "body": [
+        "Städtebauförderung wird typischerweise für die Modernisierung öffentlicher Räume, Quartiere, soziale Infrastruktur und die Belebung von Ortszentren eingesetzt.",
+        "Für Kommunen ist die Förderung wichtig, weil größere Sanierungsprojekte aus eigenen Haushalten oft nicht finanzierbar wären."
+      ],
+      "why_it_matters": "Die Mittel können Investitionen in Wohnumfeld, Infrastruktur und Stadtzentren auslösen.",
+      "open_questions": "Welche Projekte die größten Beträge erhalten und wie schnell sie umgesetzt werden, hängt von den kommunalen Planungen ab.",
+      "sources": [
+        {
+          "name": "NDR Schleswig-Holstein",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/Schleswig-Holstein-aktuell-Nachrichten-im-Ueberblick%2Cnews-1042.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-sh-notaufnahmen",
+      "category": "bundesland",
+      "state": "Schleswig-Holstein",
+      "relevance_label": "Gesundheit",
+      "title": "Viele Notaufnahmen in Schleswig-Holstein melden starke Überlastung",
+      "hook": "Personalmangel und Krankheitsausfälle führen nach einer NDR-Umfrage regelmäßig zu Patientenstaus.",
+      "summary": "Mehrere Notaufnahmen im Land berichten über hohe Belastung. Unbesetzte Pflegestellen und kurzfristige Ausfälle verschärfen die Situation.",
+      "body": [
+        "Notaufnahmen müssen unabhängig von planbaren Kapazitäten akute Patienten aufnehmen. Fehlen Personal oder nachgelagerte Stationsbetten, entstehen Rückstaus und lange Wartezeiten.",
+        "Die Lage ist deshalb nicht nur ein Problem einzelner Krankenhäuser, sondern berührt Rettungsdienst, stationäre Versorgung und die geplante Krankenhausreform."
+      ],
+      "why_it_matters": "Überlastete Notaufnahmen können Wartezeiten verlängern und Personal zusätzlich belasten.",
+      "open_questions": "Wie schnell Kliniken Personal gewinnen und ob strukturelle Reformen die Lage spürbar verbessern, bleibt offen.",
+      "sources": [
+        {
+          "name": "NDR Schleswig-Holstein",
+          "url": "https://www.ndr.de/nachrichten/schleswig-holstein/Schleswig-Holstein-aktuell-Nachrichten-im-Ueberblick%2Cnews-1040.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-th-solarberry",
+      "category": "bundesland",
+      "state": "Thüringen",
+      "relevance_label": "Energie / Landwirtschaft",
+      "title": "Agri-PV-Projekt „SolarBerry“ gewinnt Innovationspreis",
+      "hook": "Im Landkreis Sömmerda wird untersucht, wie Stromerzeugung und Erdbeeranbau auf derselben Fläche kombiniert werden können.",
+      "summary": "Das Projekt „SolarBerry“ verbindet Photovoltaikmodule mit landwirtschaftlicher Nutzung und wurde dafür mit einem Innovationspreis ausgezeichnet.",
+      "body": [
+        "Agri-Photovoltaik soll Flächen doppelt nutzen: für Stromproduktion und Landwirtschaft. Bei empfindlichen Kulturen können Module zusätzlich Schatten oder Schutz vor extremem Wetter bieten.",
+        "Ob sich solche Systeme wirtschaftlich durchsetzen, hängt von Ertrag, Baukosten, Genehmigungen und der jeweiligen Kultur ab."
+      ],
+      "why_it_matters": "Thüringen testet damit eine Technologie, die Flächenkonflikte zwischen Landwirtschaft und erneuerbarer Energie verringern könnte.",
+      "open_questions": "Wie sich Ernteerträge und Wirtschaftlichkeit über mehrere Jahre entwickeln, muss noch untersucht werden.",
+      "sources": [
+        {
+          "name": "MDR Thüringen",
+          "url": "https://www.mdr.de/nachrichten/thueringen"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-th-erfurt-nordhausen",
+      "category": "bundesland",
+      "state": "Thüringen",
+      "relevance_label": "Schiene / Infrastruktur",
+      "title": "Ausbau der Bahnstrecke Erfurt–Nordhausen soll bis 2030 abgeschlossen sein",
+      "hook": "Für die Modernisierung der Strecke sind mehr als 400 Millionen Euro vorgesehen.",
+      "summary": "Die Arbeiten an der Bahnverbindung zwischen Erfurt und Nordhausen sollen schrittweise fortgesetzt werden. Das nächste größere Teilstück ist ab 2028 vorgesehen.",
+      "body": [
+        "Die Strecke verbindet Nordthüringen mit der Landeshauptstadt und ist für Pendler sowie regionalen Verkehr wichtig. Modernisierungen können Geschwindigkeit, Zuverlässigkeit und Kapazität verbessern.",
+        "Große Schienenprojekte benötigen lange Planungs- und Bauzeiten. Der genannte Zeitplan bis 2030 hängt deshalb von Genehmigungen, Bauablauf und Finanzierung ab."
+      ],
+      "why_it_matters": "Eine leistungsfähigere Verbindung stärkt die Erreichbarkeit Nordthüringens und kann Autoverkehr reduzieren.",
+      "open_questions": "Ob Zeit- und Kostenplan eingehalten werden, wird sich erst im weiteren Bauverlauf zeigen.",
+      "sources": [
+        {
+          "name": "MDR Thüringen",
+          "url": "https://www.mdr.de/nachrichten/thueringen"
         }
       ]
     }
