@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#173d32">
-<meta name="description" content="Morgenbrief – täglich kuratierte Nachrichten aus Weltpolitik, Wissenschaft, Wirtschaft und Brandenburg.">
+<meta name="description" content="Morgenbrief – täglich kuratierte Nachrichten aus Weltpolitik, Deutschland, Wissenschaft, Wirtschaft und den Bundesländern.">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Morgenbrief">
@@ -21,7 +21,7 @@ button,input{font:inherit}.wrap{width:min(930px,calc(100% - 28px));margin:auto}
 main{padding:22px 0 44px}.hero{background:linear-gradient(145deg,var(--green),#102d25);color:#f8f4eb;border-radius:28px;padding:28px;box-shadow:var(--shadow);overflow:hidden;position:relative}.hero:after{content:"";position:absolute;width:180px;height:180px;border-radius:50%;background:rgba(233,166,90,.12);right:-60px;top:-70px}.kicker{text-transform:uppercase;letter-spacing:.12em;font-size:11px;font-weight:800;opacity:.72}.hero h1{font:500 clamp(38px,8vw,62px)/1 Georgia,serif;letter-spacing:-.04em;margin:9px 0 12px}.hero p{margin:0;max-width:700px;font-size:17px;color:#dfe8e3}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.btn{min-height:42px;border:1px solid rgba(255,255,255,.24);border-radius:999px;padding:0 15px;background:rgba(255,255,255,.08);color:inherit;font-weight:750}.btn.primary{background:var(--gold);border-color:var(--gold);color:#17211e}.btn:active{transform:translateY(1px)}
 .summary{margin-top:16px;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:20px;box-shadow:var(--shadow)}.summary h2{font:600 24px Georgia,serif;margin:2px 0}.summary ol{margin:14px 0 0;padding-left:22px;display:grid;gap:9px}.summary li::marker{color:var(--gold);font-weight:800}
 .nav-shell{position:sticky;top:68px;z-index:15;background:linear-gradient(var(--bg) 76%,transparent);padding:14px 0 12px}.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}.chips::-webkit-scrollbar{display:none}.chip{white-space:nowrap;border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:999px;padding:9px 13px;font-weight:700}.chip.active{background:var(--green);border-color:var(--green);color:#fff}
-.tools{display:flex;gap:9px;margin:4px 0 18px}.search{flex:1;min-width:0;height:44px;border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:0 14px;color:var(--text)}.refresh{width:44px;height:44px;border:1px solid var(--line);border-radius:14px;background:var(--surface);font-size:18px}
+.state-picker{display:flex;align-items:center;gap:10px;margin:2px 0 14px;padding:13px 14px;background:var(--surface);border:1px solid var(--line);border-radius:16px}.state-picker[hidden]{display:none}.state-picker label{font-weight:800;color:var(--green2);white-space:nowrap}.state-picker select{flex:1;min-width:0;height:42px;border:1px solid var(--line);border-radius:12px;background:var(--surface2);color:var(--text);padding:0 11px;font-weight:700}.tools{display:flex;gap:9px;margin:4px 0 18px}.search{flex:1;min-width:0;height:44px;border:1px solid var(--line);border-radius:14px;background:var(--surface);padding:0 14px;color:var(--text)}.refresh{width:44px;height:44px;border:1px solid var(--line);border-radius:14px;background:var(--surface);font-size:18px}
 .section-title{display:flex;justify-content:space-between;align-items:end;margin:16px 2px 12px}.section-title h2{font:600 29px Georgia,serif;margin:0}.count{font-size:12px;color:var(--muted)}
 .stories{display:grid;gap:14px}.story{display:grid;grid-template-columns:minmax(0,1fr);background:var(--surface);border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 8px 24px rgba(24,33,30,.045);cursor:pointer;transition:transform .12s ease,box-shadow .12s ease}.story:active{transform:scale(.996)}.story.has-image{grid-template-columns:minmax(0,1fr) 180px}.story-copy{padding:20px}.story-image{width:100%;height:100%;min-height:180px;object-fit:cover;background:var(--surface2)}.story-top{display:flex;align-items:center;gap:8px;margin-bottom:10px}.category{display:inline-flex;align-items:center;border-radius:999px;background:var(--surface2);padding:5px 9px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:800;color:var(--green2)}.relevance{font-size:11px;color:var(--muted);font-weight:700}.story h3{font:600 clamp(23px,5vw,31px)/1.08 Georgia,serif;letter-spacing:-.025em;margin:0 0 9px}.hook{font-size:16px;color:#4f5954;margin:0}.readmore{display:inline-flex;align-items:center;gap:7px;margin-top:15px;color:var(--green2);font-weight:850;font-size:13px}.readmore:after{content:"→";font-size:17px}
 .empty{padding:30px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:20px}.archive{margin-top:28px;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:20px}.archive h2{font:600 25px Georgia,serif;margin:4px 0 12px}.archive button{margin:4px;border:1px solid var(--line);border-radius:999px;background:var(--surface2);padding:8px 11px}footer{padding:28px 2px 40px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between}
@@ -43,7 +43,7 @@ main{padding:22px 0 44px}.hero{background:linear-gradient(145deg,var(--green),#1
 <section class="hero">
   <div class="kicker" id="date">Morgenbrief</div>
   <h1>Das Wesentliche. Klar sortiert.</h1>
-  <p id="intro">Weltpolitik, Wissenschaft, Wirtschaft und Brandenburg – ohne unnötiges Rauschen.</p>
+  <p id="intro">Weltpolitik, Inland, Wissenschaft, Wirtschaft und die Bundesländer – ohne unnötiges Rauschen.</p>
   <div class="hero-actions"><button class="btn primary" id="summaryJump">30-Sekunden-Überblick</button><button class="btn" id="archiveBtn">Archiv</button></div>
 </section>
 
@@ -56,10 +56,33 @@ main{padding:22px 0 44px}.hero{background:linear-gradient(145deg,var(--green),#1
 <div class="nav-shell"><div class="chips" id="chips">
   <button class="chip active" data-cat="all">Alles</button>
   <button class="chip" data-cat="weltpolitik">Weltpolitik</button>
+  <button class="chip" data-cat="inland">Inland</button>
   <button class="chip" data-cat="wissenschaft">Wissenschaft</button>
   <button class="chip" data-cat="wirtschaft">Wirtschaft</button>
-  <button class="chip" data-cat="brandenburg">Brandenburg</button>
+  <button class="chip" data-cat="bundesland">Bundesländer</button>
 </div></div>
+
+<div class="state-picker" id="statePicker" hidden>
+  <label for="stateSelect">Bundesland</label>
+  <select id="stateSelect">
+    <option>Baden-Württemberg</option>
+    <option>Bayern</option>
+    <option>Berlin</option>
+    <option selected>Brandenburg</option>
+    <option>Bremen</option>
+    <option>Hamburg</option>
+    <option>Hessen</option>
+    <option>Mecklenburg-Vorpommern</option>
+    <option>Niedersachsen</option>
+    <option>Nordrhein-Westfalen</option>
+    <option>Rheinland-Pfalz</option>
+    <option>Saarland</option>
+    <option>Sachsen</option>
+    <option>Sachsen-Anhalt</option>
+    <option>Schleswig-Holstein</option>
+    <option>Thüringen</option>
+  </select>
+</div>
 
 <div class="tools"><input class="search" id="search" type="search" placeholder="Meldungen durchsuchen"><button class="refresh" id="refresh" aria-label="Aktualisieren">↻</button></div>
 <div class="section-title"><h2>Nachrichten</h2><span class="count" id="count"></span></div>
@@ -86,12 +109,16 @@ main{padding:22px 0 44px}.hero{background:linear-gradient(145deg,var(--green),#1
 </section>
 
 <script>
-const labels={weltpolitik:"Weltpolitik",wissenschaft:"Wissenschaft",wirtschaft:"Wirtschaft",brandenburg:"Brandenburg"};
-let brief=null,cat="all",query="";
+const labels={weltpolitik:"Weltpolitik",inland:"Inland",wissenschaft:"Wissenschaft",wirtschaft:"Wirtschaft",bundesland:"Bundesland",brandenburg:"Brandenburg"};
+const states=["Baden-Württemberg","Bayern","Berlin","Brandenburg","Bremen","Hamburg","Hessen","Mecklenburg-Vorpommern","Niedersachsen","Nordrhein-Westfalen","Rheinland-Pfalz","Saarland","Sachsen","Sachsen-Anhalt","Schleswig-Holstein","Thüringen"];
+let brief=null,cat="all",query="",selectedState=localStorage.getItem("morgenbriefState")||"Brandenburg";
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function fmt(d){const [y,m,day]=d.split("-").map(Number);return new Intl.DateTimeFormat("de-DE",{weekday:"long",day:"2-digit",month:"long",year:"numeric",timeZone:"UTC"}).format(new Date(Date.UTC(y,m-1,day)))}
 function teaser(s){return s.hook||s.summary||""}
+function normalizedCategory(s){return s.category==="brandenburg"?"bundesland":s.category}
+function storyState(s){return s.state||(s.category==="brandenburg"?"Brandenburg":"")}
+function categoryLabel(s){const c=normalizedCategory(s);return c==="bundesland"?(storyState(s)||"Bundesland"):(labels[c]||c||"")}
 function bodyParagraphs(s){
   if(Array.isArray(s.body)&&s.body.length)return s.body;
   if(typeof s.body==="string"&&s.body.trim())return [s.body];
@@ -103,18 +130,24 @@ function bodyParagraphs(s){
 function render(){
  if(!brief)return;
  const q=query.trim().toLowerCase();
- const stories=(brief.stories||[]).filter(s=>(cat==="all"||s.category===cat)&&(!q||[s.title,s.hook,s.summary,s.body,s.why_it_matters,s.open_questions].flat().join(" ").toLowerCase().includes(q)));
+ const stories=(brief.stories||[]).filter(s=>{
+   const c=normalizedCategory(s);
+   const catMatch=cat==="all"||c===cat;
+   const stateMatch=cat!=="bundesland"||storyState(s)===selectedState;
+   const searchMatch=!q||[s.title,s.hook,s.summary,s.body,s.why_it_matters,s.open_questions,storyState(s)].flat().join(" ").toLowerCase().includes(q);
+   return catMatch&&stateMatch&&searchMatch;
+ });
  $("count").textContent=stories.length+" "+(stories.length===1?"Meldung":"Meldungen");
  $("stories").innerHTML=stories.length?stories.map(s=>{
    const img=s.image&&s.image.url?'<img class="story-image" src="'+esc(s.image.url)+'" alt="'+esc(s.image.alt||"")+'" loading="lazy">':"";
    return '<article class="story '+(img?"has-image":"")+'" data-id="'+esc(s.id)+'" tabindex="0" role="button" aria-label="'+esc(s.title)+' öffnen">'+
-     '<div class="story-copy"><div class="story-top"><span class="category">'+esc(labels[s.category]||s.category)+'</span><span class="relevance">'+esc(s.relevance_label||"")+'</span></div>'+
+     '<div class="story-copy"><div class="story-top"><span class="category">'+esc(categoryLabel(s))+'</span><span class="relevance">'+esc(s.relevance_label||"")+'</span></div>'+
      '<h3>'+esc(s.title)+'</h3><p class="hook">'+esc(teaser(s))+'</p><span class="readmore">Weiterlesen</span></div>'+img+'</article>';
  }).join(""):'<div class="empty">Keine passende Meldung in dieser Ausgabe.</div>';
 }
 function openArticle(id){
  const s=(brief.stories||[]).find(x=>x.id===id); if(!s)return;
- $("articleCategory").textContent=labels[s.category]||s.category||"";
+ $("articleCategory").textContent=categoryLabel(s);
  $("articleRelevance").textContent=s.relevance_label||"";
  $("articleTitle").textContent=s.title||"";
  $("articleDeck").textContent=s.summary||s.hook||"";
@@ -152,7 +185,19 @@ async function showArchive(){
  const r=await fetch("data/archive/index.json?v="+Date.now(),{cache:"no-store"}); const d=await r.json(); $("archive").hidden=false; $("archive").scrollIntoView({behavior:"smooth",block:"start"});
  $("archiveList").innerHTML=(d.issues||[]).length?(d.issues||[]).map(i=>'<button data-path="'+esc(i.path)+'">'+esc(fmt(i.date))+'</button>').join(""):"Noch keine archivierten Ausgaben.";
 }
-$("chips").addEventListener("click",e=>{const b=e.target.closest("[data-cat]");if(!b)return;cat=b.dataset.cat;document.querySelectorAll(".chip").forEach(x=>x.classList.toggle("active",x===b));render()});
+$("stateSelect").value=states.includes(selectedState)?selectedState:"Brandenburg";
+$("chips").addEventListener("click",e=>{
+ const b=e.target.closest("[data-cat]");if(!b)return;
+ cat=b.dataset.cat;
+ document.querySelectorAll(".chip").forEach(x=>x.classList.toggle("active",x===b));
+ $("statePicker").hidden=cat!=="bundesland";
+ render();
+});
+$("stateSelect").addEventListener("change",e=>{
+ selectedState=e.target.value;
+ localStorage.setItem("morgenbriefState",selectedState);
+ render();
+});
 $("search").addEventListener("input",e=>{query=e.target.value;render()});
 $("refresh").addEventListener("click",()=>load().catch(()=>{}));
 $("summaryJump").addEventListener("click",()=>$("summary").scrollIntoView({behavior:"smooth",block:"start"}));
