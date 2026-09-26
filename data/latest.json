@@ -1,31 +1,27 @@
 {
   "date": "2026-09-26",
   "status": "Aktuell",
-  "intro": "Die heutige Ausgabe ist vollständig auf das erweiterte Morgenbrief-Schema gebracht: Weltpolitik, Inland, Wissenschaft und Wirtschaft werden durch einen deutlich ausgebauten Länderbereich ergänzt. Jedes Bundesland enthält nun mindestens drei priorisierte Meldungen aus der aktuellen Nachrichtenlage.",
+  "intro": "Die Ausgabe vom 26. September ist nun nach dem neuen Umfang aufgebaut: Weltpolitik, Inland, Wissenschaft und Wirtschaft enthalten jeweils ungefähr sieben priorisierte Meldungen; der Länderbereich bleibt zusätzlich mit mehreren Meldungen je Bundesland gefüllt. Entscheidend ist weiterhin Nachrichtenwert statt künstlicher Gleichverteilung.",
   "quick_read": [
     {
       "title": "Weltpolitik",
-      "text": "Hormus-Diplomatie, USA–China und die mögliche Energie-Waffenruhe in der Ukraine bleiben die wichtigsten internationalen Themen."
+      "text": "Hormus, Ukraine, Gaza, Jemen, EU-Russland-Sanktionen, USA–China und das neue Arktis-Abkommen bestimmen die internationale Lage."
     },
     {
       "title": "Inland",
-      "text": "Bundespolizeigesetz, automatische Kindergeld-Auszahlung, neue E-Scooter-Haftung und die Frühstartrente prägen die bundespolitische Agenda."
+      "text": "Bundespolizeigesetz, Kindergeld-Automatisierung, E-Scooter-Haftung, Frühstartrente, Arbeitsförderung und die Organspende-Debatte gehören zu den wichtigsten Bundesthemen."
     },
     {
       "title": "Wissenschaft",
-      "text": "Quantencomputing, Evolutionsgenomik und neue Erkenntnisse zu Gedächtnisveränderungen in der Schwangerschaft stehen im Fokus."
+      "text": "Quantencomputing, PRIMA, ein großer Hirnzell-Atlas, MS-Forschung, PubMed-Reproduzierbarkeit und weitere neue Forschungsergebnisse stehen im Fokus."
     },
     {
       "title": "Wirtschaft",
-      "text": "Energiepreise, Diesel-Inflationsrisiken und die fragile deutsche Konjunktur bleiben zentral."
+      "text": "Energiepreise, EZB-Zinsen, Kreditentwicklung, deutsche Banken, China-Wettbewerb und die schwache deutsche Konjunktur prägen das Bild."
     },
     {
       "title": "Bundesländer",
-      "text": "Die Ausgabe enthält nun aktuelle Meldungen für alle 16 Länder – von VBB-Tarifen über Konjunkturdaten bis zu Infrastruktur und Verwaltungsreformen."
-    },
-    {
-      "title": "Brandenburg",
-      "text": "Brandenburg übernimmt 2027 den Vorsitz der Agrarministerkonferenz; außerdem bleibt die Sanierung des Landesstraßennetzes ein wichtiges Thema."
+      "text": "Alle 16 Länder sind mit mehreren priorisierten Meldungen aus Politik, Infrastruktur, Wirtschaft, Bildung, Gesundheit und Sicherheit vertreten."
     }
   ],
   "stories": [
@@ -1382,6 +1378,324 @@
         {
           "name": "MDR Thüringen",
           "url": "https://www.mdr.de/nachrichten/thueringen"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-gaza-reconstruction",
+      "category": "weltpolitik",
+      "relevance_label": "Nahost / Gaza",
+      "title": "UN: Wiederaufbau in Gaza bleibt weit hinter dem Bedarf zurück",
+      "hook": "Fast ein Jahr nach Beginn der Waffenruhe ist der Wiederaufbau laut UN weiterhin zu langsam. Zugleich verschärfen sich im Westjordanland Gewalt, Siedlungsausbau und die Finanzkrise der Palästinensischen Autonomiebehörde.",
+      "summary": "Ein neuer Bericht des UN-Sonderkoordinators für den Nahost-Friedensprozess warnt vor anhaltender Instabilität in Gaza und einer sich verschlechternden Lage im Westjordanland. UNCTAD schätzt den Wiederaufbaubedarf in Gaza inzwischen auf rund 71,5 Milliarden US-Dollar.",
+      "body": [
+        "Der UN-Bericht beschreibt die Waffenruhe in Gaza als bedeutend, aber fragil. Große Teile des Gebiets bleiben nur eingeschränkt zugänglich, während zerstörte Gebäude, Wasser- und Abwassersysteme, Gesundheitsversorgung, Schulen und Wohnraum nur langsam wiederhergestellt werden. Mehrere internationale Finanzierungsinstrumente sind zwar eingerichtet, haben nach UN-Angaben bislang aber noch nicht zu Wiederaufbau in der nötigen Größenordnung geführt.",
+        "UNCTAD beziffert den gesamten Wiederaufbaubedarf auf rund 71,5 Milliarden US-Dollar. Gleichzeitig bleibt die palästinensische Wirtschaft schwer geschwächt. Im Westjordanland verschärfen Siedlungsausbau, Gewalt, Bewegungseinschränkungen und die Finanzkrise der Palästinensischen Autonomiebehörde die wirtschaftliche und politische Lage.",
+        "Die Vereinten Nationen verbinden humanitären Wiederaufbau ausdrücklich mit einer politischen Perspektive. Nach ihrer Einschätzung kann eine dauerhafte Stabilisierung nicht allein über Hilfslieferungen erreicht werden, sondern benötigt funktionsfähige Institutionen, Finanzierung und einen belastbaren politischen Rahmen."
+      ],
+      "why_it_matters": "Die Lage in Gaza und im Westjordanland bleibt ein zentraler Faktor für die Stabilität des Nahen Ostens und für internationale Diplomatie.",
+      "open_questions": "Offen bleibt, ob Zugangsbeschränkungen gelockert, Finanzierungszusagen umgesetzt und die politischen Übergangsregelungen tatsächlich funktionsfähig werden.",
+      "sources": [
+        {
+          "name": "UNSCO",
+          "url": "https://www.un.org/unispal/document/unsco-report-to-the-ad-hoc-liaison-committee-september-2026/"
+        },
+        {
+          "name": "UNCTAD",
+          "url": "https://unctad.org/press-material/unctad-gaza-reconstruction-needs-reach-715-billion-palestinian-economy-and-public"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-yemen-displacement",
+      "category": "weltpolitik",
+      "relevance_label": "Jemen / Rotes Meer",
+      "title": "Jemen: Neue Kämpfe vertreiben mehr als 130.000 Menschen",
+      "hook": "Die erneute Eskalation im Jemen treibt Zehntausende in die Flucht. Gleichzeitig erhöhen die Houthi-Gebietsgewinne den Druck auf die strategisch wichtige Meerenge Bab al-Mandab.",
+      "summary": "UNHCR warnt vor weiter steigender Vertreibung, nachdem im September bereits mehr als 130.000 Menschen ihre Heimat verlassen mussten. Die Kämpfe betreffen mehrere Fronten im Westen und Süden des Landes.",
+      "body": [
+        "Die jüngste Eskalation folgt auf neue Geländegewinne der Houthi-Bewegung an der Westküste und in strategisch wichtigen Hochlandgebieten. Die Kämpfe betreffen damit Regionen, die für den Zugang zum Roten Meer und für Nachschubwege der Konfliktparteien wichtig sind. Ein Teil der Vertriebenen ist über das Meer nach Dschibuti und Somalia geflohen.",
+        "UNHCR rechnet bei anhaltenden Kämpfen mit weiterer Fluchtbewegung. Die humanitäre Lage ist besonders schwierig, weil die internationale Hilfe für den Jemen seit Jahren unterfinanziert ist und viele Menschen bereits mehrfach vertrieben wurden.",
+        "Auch über den Jemen hinaus ist die Entwicklung relevant: Bab al-Mandab gehört zu den wichtigsten Meerengen für den Handel zwischen Europa und Asien. Militärische Kontrolle oder Angriffe in diesem Gebiet können Schifffahrt, Versicherungen und Energiepreise beeinflussen."
+      ],
+      "why_it_matters": "Der Konflikt verbindet eine schwere humanitäre Krise mit Risiken für eine zentrale Welthandelsroute.",
+      "open_questions": "Offen ist, ob sich die Offensive weiter ausweitet, wie Saudi-Arabien reagiert und ob laufende Vermittlungskontakte eine neue Waffenruhe ermöglichen.",
+      "sources": [
+        {
+          "name": "UNHCR",
+          "url": "https://www.unhcr.org/news/press-releases/yemen-escalating-conflict-drives-new-displacement-and-refugee-arrivals-djibouti"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/more-yemenis-expected-flee-upsurge-fighting-un-says-2026-09-22/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-eu-russia-sanctions",
+      "category": "weltpolitik",
+      "relevance_label": "EU / Russland",
+      "title": "EU verlängert personenbezogene Russland-Sanktionen bis 2029",
+      "hook": "Mehr als 3.000 Personen und Einrichtungen bleiben sanktioniert. Die EU verlängert die Maßnahmen diesmal gleich um drei Jahre statt in kurzen Intervallen.",
+      "summary": "Der Rat der EU hat die Sanktionen gegen Personen und Einrichtungen, die Russlands Angriff auf die Ukraine unterstützen oder die territoriale Integrität der Ukraine untergraben, bis September 2029 verlängert.",
+      "body": [
+        "Die Maßnahmen umfassen Reisebeschränkungen, Vermögenssperren und das Verbot, gelisteten Personen oder Einrichtungen finanzielle Mittel zur Verfügung zu stellen. Bislang mussten diese personenbezogenen Sanktionen regelmäßig in deutlich kürzeren Abständen verlängert werden.",
+        "Im Zuge der Überprüfung wurden einzelne Personen von der Liste gestrichen. Medien berichteten insbesondere über die Aufhebung der Sanktionen gegen Alisher Usmanov und Mikhail Fridman; diese Entscheidung war innerhalb der EU umstritten und wurde von der ukrainischen Regierung kritisiert.",
+        "Die dreijährige Laufzeit reduziert das Risiko, dass das gesamte Paket bei jeder turnusmäßigen Verlängerung erneut zum Gegenstand eines Vetos einzelner Mitgliedstaaten wird. Die sektoralen Wirtschaftssanktionen gegen Russland laufen parallel nach eigenen Rechtsakten."
+      ],
+      "why_it_matters": "Die Entscheidung stabilisiert einen wichtigen Teil der europäischen Sanktionspolitik gegenüber Russland über mehrere Jahre.",
+      "open_questions": "Politisch umstritten bleibt, nach welchen Kriterien einzelne Personen künftig von den Listen gestrichen werden und wie geschlossen die EU bei weiteren Sanktionspaketen bleibt.",
+      "sources": [
+        {
+          "name": "Rat der Europäischen Union",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/09/22/ukraine-s-territorial-integrity-eu-extends-individual-listings-for-further-three-years/"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/eu-renews-russia-sanctions-drops-russian-billionaires-usmanov-fridman-2026-09-22/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-greenland-security",
+      "category": "weltpolitik",
+      "relevance_label": "Arktis / NATO",
+      "title": "USA, Dänemark und Grönland schließen neues Arktis-Sicherheitsabkommen",
+      "hook": "Die USA dürfen ihre militärische Präsenz in Grönland ausbauen. Das Abkommen beendet den jüngsten Streit um die Insel nicht vollständig, schafft aber einen neuen sicherheitspolitischen Rahmen.",
+      "summary": "Das trilaterale Abkommen erweitert den US-Zugang zu Militärstandorten in Grönland, ermöglicht zusätzliche Verteidigungsbereiche und stärkt die Zusammenarbeit im arktischen Raum.",
+      "body": [
+        "Die Vereinbarung ergänzt den Verteidigungsvertrag von 1951. Die USA dürfen ihre Aktivitäten an der Pituffik Space Base modernisieren und zusätzliche Verteidigungsbereiche in Narsarsuaq und Mestersvig einrichten. Weitere Standorte können nach einem abgestuften Konsultationsverfahren vereinbart werden.",
+        "Die Arktis gewinnt durch neue Schifffahrtsrouten, Rohstoffe und die militärische Aktivität Russlands und Chinas an strategischer Bedeutung. Das Abkommen ist deshalb nicht nur bilateral, sondern auch für die NATO relevant.",
+        "Gleichzeitig betonen Dänemark und Grönland, dass Grönlands politischer Status und Selbstbestimmung unberührt bleiben. Der Vertrag ist damit ein Kompromiss zwischen erweiterten US-Sicherheitsinteressen und der formalen Souveränitätsordnung."
+      ],
+      "why_it_matters": "Das Abkommen verändert die militärische Infrastruktur im Nordatlantik und stärkt die strategische Bedeutung Grönlands innerhalb der NATO.",
+      "open_questions": "Wie stark die zusätzlichen Standorte tatsächlich ausgebaut werden und welche Rolle Grönland bei künftigen Entscheidungen erhält, wird sich erst in der Umsetzung zeigen.",
+      "sources": [
+        {
+          "name": "Dänisches Außenministerium",
+          "url": "https://um.dk/usa/en/nyheder/joint-agreement-on-defense-and-security-in-the-arctic/"
+        },
+        {
+          "name": "White House – Vertragstext",
+          "url": "https://www.whitehouse.gov/briefings-statements/2026/09/agreement-between-the-government-of-the-united-states-of-america-and-the-government-of-the-kingdom-of-denmark-together-with-the-government-of-greenland-to-amend-and-supplement-the-agreement-of-27-april-1951-pursuant-to-the-north-atlantic-treaty-between-the-government-of-the-united-states-of-america-and-the-government-of-the-kingdom-of-denmark-on-the-defense-of-greenland-1951-defense-agreement-including-all-relevant-subsequent-agreements-related-thereto/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-arbeitsfoerderung-digital",
+      "category": "inland",
+      "relevance_label": "Arbeitsmarkt / Verwaltung",
+      "title": "Bundestag berät umfassende Digitalisierung der Arbeitsförderung",
+      "hook": "Jobcenter und Arbeitsagenturen sollen Leistungen stärker digital bearbeiten können. Der Gesetzentwurf verändert zugleich mehrere Regeln der Arbeitslosenversicherung.",
+      "summary": "Der Bundestag hat den Regierungsentwurf zur Modernisierung und Digitalisierung der Arbeitsförderung in erster Lesung beraten und an die Ausschüsse überwiesen.",
+      "body": [
+        "Der Entwurf soll Verwaltungsverfahren bei der Bundesagentur für Arbeit und den Jobcentern vereinfachen und stärker digitalisieren. Dazu gehören elektronische Kommunikation, automatisierte Abläufe und Änderungen bei verschiedenen Leistungs- und Meldeverfahren.",
+        "Die Reform betrifft nicht nur Technik, sondern auch den rechtlichen Rahmen der Arbeitsförderung. Im parlamentarischen Verfahren werden deshalb sowohl Effizienzgewinne als auch Datenschutz, Erreichbarkeit für Menschen ohne digitale Zugänge und die praktische Umsetzung in den Behörden diskutiert.",
+        "Da der Entwurf erst in erster Lesung beraten wurde, können die Ausschüsse noch Änderungen vornehmen. Ein Inkrafttreten hängt vom weiteren Gesetzgebungsverfahren ab."
+      ],
+      "why_it_matters": "Arbeitsagentur und Jobcenter bearbeiten jedes Jahr Millionen Leistungs- und Vermittlungsfälle; digitale Verfahren können Bearbeitungszeiten und Verwaltungsaufwand deutlich beeinflussen.",
+      "open_questions": "Offen ist, welche Änderungen die Ausschüsse vornehmen und wie schnell die IT-Systeme die neuen Verfahren technisch umsetzen können.",
+      "sources": [
+        {
+          "name": "Deutscher Bundestag",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-arbeitsfoerderung-1211274"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-organspende-widerspruch",
+      "category": "inland",
+      "relevance_label": "Gesundheit / Gesetzgebung",
+      "title": "Bundestag nimmt neue Debatte über Widerspruchslösung bei Organspende auf",
+      "hook": "Eine fraktionsübergreifende Gruppe will die Regeln für Organspende grundlegend ändern. Wer nicht widerspricht, würde grundsätzlich als Spender gelten können.",
+      "summary": "Der Bundestag hat zwei Gesetzentwürfe zur Einführung einer Widerspruchslösung in erster Lesung beraten. Eine endgültige Entscheidung ist noch nicht gefallen.",
+      "body": [
+        "Deutschland hat seit Jahren deutlich weniger Organspenden als für die Zahl wartender Patienten benötigt werden. Befürworter der Widerspruchslösung argumentieren, dass die heutige Zustimmungslösung viele mögliche Spenden verhindert, obwohl ein großer Teil der Bevölkerung Organspende grundsätzlich befürwortet.",
+        "Gegner sehen dagegen einen erheblichen Eingriff in die Selbstbestimmung und verlangen, dass eine Organspende weiterhin eine ausdrückliche Zustimmung voraussetzt. Die Debatte ist deshalb ethisch und verfassungsrechtlich besonders sensibel.",
+        "Die Gesetzentwürfe wurden zunächst an die Ausschüsse überwiesen. Dort folgen Anhörungen und weitere Beratungen, bevor eine mögliche Schlussabstimmung stattfindet."
+      ],
+      "why_it_matters": "Eine Widerspruchslösung würde die rechtliche Ausgangslage für Organspende für nahezu alle Erwachsenen verändern.",
+      "open_questions": "Ob eine parlamentarische Mehrheit für die Widerspruchslösung zustande kommt und welche Ausnahmen vorgesehen werden, ist offen.",
+      "sources": [
+        {
+          "name": "Deutscher Bundestag",
+          "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw39-de-transplantationsgesetz-1211264"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-prima",
+      "category": "wissenschaft",
+      "relevance_label": "Astronomie",
+      "title": "NASA wählt PRIMA als erste Mission einer neuen Teleskopklasse aus",
+      "hook": "Das geplante Ferninfrarot-Teleskop soll die Entstehung von Planeten, Sternen und Schwarzen Löchern untersuchen. PRIMA geht nun in die nächste Entwicklungsphase.",
+      "summary": "NASA hat PRIMA als erste Mission der neuen Probe-Explorer-Klasse ausgewählt. Das Weltraumteleskop soll Bereiche des infraroten Spektrums beobachten, die von bestehenden Observatorien nur begrenzt abgedeckt werden.",
+      "body": [
+        "PRIMA steht für PRobe far-Infrared Mission for Astrophysics. Die Mission soll insbesondere kalte Staub- und Gasregionen untersuchen, die im sichtbaren Licht verborgen bleiben. Dadurch können Forschende Prozesse verfolgen, die bei der Entstehung von Sternen und Planetensystemen sowie in der Umgebung aktiver Schwarzer Löcher eine Rolle spielen.",
+        "Die Auswahl bedeutet noch keinen unmittelbar bevorstehenden Start. PRIMA wechselt zunächst in die sogenannte Phase B, in der Design und Schlüsseltechnologien weiterentwickelt werden. Kosten, Zeitplan und technische Risiken werden dabei erneut geprüft.",
+        "Die neue Probe-Explorer-Klasse soll wissenschaftlich ambitionierte Missionen ermöglichen, die zwischen kleineren Explorer-Projekten und den großen Flaggschiff-Missionen der NASA liegen."
+      ],
+      "why_it_matters": "PRIMA könnte eine Beobachtungslücke im Ferninfrarot schließen und damit neue Daten zur Entwicklung von Galaxien, Sternen und Planetensystemen liefern.",
+      "open_questions": "Starttermin, endgültige Kosten und die technische Ausgestaltung werden erst nach weiteren Entwicklungsphasen feststehen.",
+      "sources": [
+        {
+          "name": "NASA",
+          "url": "https://www.nasa.gov/news-release/nasa-selects-far-infrared-telescope-as-first-in-new-mission-class/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-pubmed-linked-discoveries",
+      "category": "wissenschaft",
+      "relevance_label": "Forschungsqualität",
+      "title": "NIH startet neues PubMed-Werkzeug für Reproduzierbarkeit",
+      "hook": "„Linked Discoveries“ soll zeigen, wie einzelne Forschungsergebnisse in das größere wissenschaftliche Gesamtbild passen.",
+      "summary": "Die US-National Institutes of Health haben ein experimentelles PubMed-Werkzeug veröffentlicht, das Beziehungen zwischen Studien sichtbar machen soll und Forschenden helfen kann, Replikationen und widersprüchliche Befunde leichter zu erkennen.",
+      "body": [
+        "Wissenschaftliche Aussagen beruhen selten auf einer einzelnen Studie. Entscheidend ist, ob Ergebnisse von anderen Arbeitsgruppen bestätigt, erweitert oder widerlegt werden. Genau hier setzt das neue Werkzeug an: Es soll Verbindungen zwischen Publikationen automatisch sichtbar machen und so die Suche nach Replikationen erleichtern.",
+        "Das System ist zunächst experimentell. Seine Nützlichkeit hängt davon ab, wie zuverlässig es methodisch verwandte Arbeiten erkennt und wie transparent die zugrunde liegenden Algorithmen arbeiten.",
+        "Für die biomedizinische Forschung ist das besonders relevant, weil PubMed zu den zentralen Literaturdatenbanken weltweit gehört. Schon kleine Verbesserungen bei Literaturauswertung und Evidenzsynthese können sehr große Nutzergruppen erreichen."
+      ],
+      "why_it_matters": "Bessere Auffindbarkeit von Replikationen und Gegenbefunden kann die Bewertung wissenschaftlicher Evidenz verbessern.",
+      "open_questions": "Wie präzise das Werkzeug arbeitet und ob es langfristig fester Bestandteil von PubMed wird, muss sich im Praxiseinsatz zeigen.",
+      "sources": [
+        {
+          "name": "NIH",
+          "url": "https://www.nih.gov/news-events/news-releases"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-ms-hiv-drug",
+      "category": "wissenschaft",
+      "relevance_label": "Multiple Sklerose",
+      "title": "Modifiziertes HIV-Medikament verbessert schwere Symptome in MS-Modell",
+      "hook": "Ein experimentell verändertes HIV-Medikament konnte in einem präklinischen Modell Sehverlust und Lähmungserscheinungen zurückdrängen.",
+      "summary": "NIH-Forschende berichten über einen Wirkstoffansatz, der in einem Modell für Multiple Sklerose neuroinflammatorische Schäden deutlich reduzierte. Es handelt sich noch nicht um einen klinisch bestätigten Therapieeffekt beim Menschen.",
+      "body": [
+        "Die Forschenden veränderten einen Wirkstoff, der ursprünglich gegen HIV entwickelt wurde, und testeten ihn in einem Modell für Multiple Sklerose. Dabei verbesserten sich sowohl neurologische Funktionen als auch Schäden an Sehbahnen und Bewegungsapparat.",
+        "Der Ansatz ist interessant, weil viele etablierte MS-Therapien vor allem das Immunsystem beeinflussen, während bereits entstandene Nervenschäden nur begrenzt rückgängig gemacht werden können. Ein Wirkstoff, der zusätzlich Schutz oder Reparatur von Nervengewebe fördert, könnte deshalb eine wichtige Ergänzung sein.",
+        "Die Ergebnisse stammen allerdings aus einem präklinischen Modell. Sicherheit, Dosierung und Wirksamkeit beim Menschen müssen erst in klinischen Studien geprüft werden."
+      ],
+      "why_it_matters": "Ein erfolgreicher neuroprotektiver Ansatz könnte die Behandlung von MS über reine Entzündungskontrolle hinaus erweitern.",
+      "open_questions": "Entscheidend ist, ob sich die Effekte in Humanstudien bestätigen und ob der Wirkstoff langfristig sicher eingesetzt werden kann.",
+      "sources": [
+        {
+          "name": "NIH",
+          "url": "https://www.nih.gov/news-events/news-releases/modified-hiv-drug-reverses-vision-loss-paralysis-multiple-sclerosis-model"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-alzheimer-atlas",
+      "category": "wissenschaft",
+      "relevance_label": "Neurowissenschaft",
+      "title": "Großer Zellatlas kartiert Genaktivität bei Alzheimer und weiteren Hirnerkrankungen",
+      "hook": "Mehr als 6,3 Millionen Zellkerne aus fast 1.500 menschlichen Gehirnen bilden eine der bislang umfangreichsten Karten der Genaktivität im präfrontalen Kortex.",
+      "summary": "Der PsychAD-Verbund hat einen hochaufgelösten Einzelzell-Atlas veröffentlicht, der gesunde Alterung mit mehreren neurologischen und psychiatrischen Erkrankungen vergleicht.",
+      "body": [
+        "Die Daten stammen aus Proben von 1.494 Menschen unterschiedlichen Alters. Analysiert wurden mehr als 6,3 Millionen Zellkerne aus dem präfrontalen Kortex, einer Hirnregion, die unter anderem an Entscheidungsfindung, Selbstkontrolle und Emotionen beteiligt ist.",
+        "Die Forschenden identifizierten krankheitsspezifische Muster der Genaktivität bei acht Erkrankungen, mit einem besonderen Schwerpunkt auf Alzheimer. Solche Muster können helfen, Zelltypen zu bestimmen, die besonders früh oder stark betroffen sind.",
+        "Der Atlas liefert keine unmittelbare Therapie, sondern eine Referenz für zukünftige Forschung. Weil es sich überwiegend um postmortales Gewebe handelt, lassen sich zeitliche Ursachen-Wirkungs-Beziehungen nur eingeschränkt ableiten."
+      ],
+      "why_it_matters": "Der Datensatz kann neue Zielstrukturen für Diagnostik und Therapie identifizieren und Vergleiche zwischen mehreren Hirnerkrankungen ermöglichen.",
+      "open_questions": "Welche der beobachteten Genaktivitätsmuster ursächlich an Erkrankungen beteiligt sind und welche nur Folgen darstellen, muss weiter untersucht werden.",
+      "sources": [
+        {
+          "name": "Nature",
+          "url": "https://www.nature.com/nature/volumes/657/issues/8133"
+        },
+        {
+          "name": "NIH",
+          "url": "https://www.nih.gov/news-events/news-releases"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-euro-credit",
+      "category": "wirtschaft",
+      "relevance_label": "Eurozone / Kredit",
+      "title": "Kreditvergabe im Euroraum wächst weiter, Unternehmensdynamik schwächt sich leicht ab",
+      "hook": "Die Geldmenge M3 wächst etwas schneller, während das Kreditwachstum bei Unternehmen leicht nachlässt.",
+      "summary": "Neue EZB-Daten für August zeigen ein Jahreswachstum der Geldmenge M3 von 3,5 Prozent. Kredite an private Haushalte wachsen mit 3,1 Prozent, Kredite an nichtfinanzielle Unternehmen mit 4,2 Prozent.",
+      "body": [
+        "Die monetären Daten liefern Hinweise darauf, wie stark höhere Zinsen und wirtschaftliche Unsicherheit auf Kreditnachfrage und Finanzierung wirken. Im August stieg die breite Geldmenge M3 etwas schneller als im Juli, während das Wachstum der engeren Geldmenge M1 leicht nachließ.",
+        "Bei Unternehmenskrediten verlangsamte sich die Jahresrate von 4,4 auf 4,2 Prozent. Haushaltskredite blieben dagegen bei 3,1 Prozent stabil. Einzelne Monatswerte sind noch kein Konjunkturtrend, können aber zeigen, ob Finanzierung stärker oder schwächer in die Realwirtschaft gelangt.",
+        "Für die EZB sind solche Daten ein Teil des Gesamtbildes neben Inflation, Löhnen und Wachstum. Sie helfen einzuschätzen, wie restriktiv die Geldpolitik tatsächlich wirkt."
+      ],
+      "why_it_matters": "Kreditwachstum beeinflusst Investitionen, Wohnungsbau und Konsum und ist damit ein wichtiger Frühindikator für die Konjunktur im Euroraum.",
+      "open_questions": "Ob sich die leichte Abschwächung bei Unternehmenskrediten fortsetzt, wird erst mit den kommenden Monatsdaten klar.",
+      "sources": [
+        {
+          "name": "Europäische Zentralbank / Bundesbank",
+          "url": "https://www.bundesbank.de/de/presse/pressemitteilungen/ezb"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-german-banks-profit",
+      "category": "wirtschaft",
+      "relevance_label": "Banken",
+      "title": "Deutsche Banken erzielen 2025 erneut sehr hohe Gewinne",
+      "hook": "Der Jahresüberschuss vor Steuern lag bei 52,3 Milliarden Euro. Gleichzeitig steigen Kreditrisiken und Cybergefahren.",
+      "summary": "Die Bundesbank beschreibt die Ertragslage deutscher Kreditinstitute 2025 als außergewöhnlich stark. Operative Erträge erreichten mit 172,5 Milliarden Euro ein Rekordhoch.",
+      "body": [
+        "Der aggregierte Jahresüberschuss vor Steuern erreichte 52,3 Milliarden Euro und lag damit das dritte Jahr in Folge deutlich über dem langfristigen Durchschnitt. Die operativen Erträge stiegen um 4,1 Prozent auf 172,5 Milliarden Euro.",
+        "Ein Teil des Gewinnanstiegs wurde von einer einzelnen Großbank getragen, doch auch ohne diesen Sondereffekt wäre ein neues Rekordniveau erreicht worden. Zins- und Provisionsgeschäft blieben die wichtigsten Ertragsquellen.",
+        "Die Bundesbank warnt zugleich vor einem schwierigen Umfeld. Kreditrisiken nehmen zu, die Unternehmensnachfrage nach Krediten bleibt schwach und Cyberangriffe gewinnen als Risiko für Banken an Bedeutung."
+      ],
+      "why_it_matters": "Starke Banken erhöhen grundsätzlich die Widerstandsfähigkeit des Finanzsystems, zugleich können steigende Kreditrisiken bei schwacher Konjunktur neue Belastungen erzeugen.",
+      "open_questions": "Wie stark sich höhere Ausfallrisiken und die schwache Unternehmenskonjunktur 2026 auf Gewinne und Kreditvergabe auswirken, ist offen.",
+      "sources": [
+        {
+          "name": "Deutsche Bundesbank",
+          "url": "https://www.bundesbank.de/de/aufgaben/themen/deutsche-kreditinstitute-erzielen-2025-erneut-hohe-gewinne-1008604"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-china-eu-industry",
+      "category": "wirtschaft",
+      "relevance_label": "Industrie / China",
+      "title": "Chinas Industrievorsprung trifft deutsche Hersteller besonders stark",
+      "hook": "Eine EZB-Analyse sieht Deutschland wegen seiner export- und technologieintensiven Wirtschaftsstruktur stärker unter Wettbewerbsdruck als viele andere EU-Länder.",
+      "summary": "China produziert zunehmend hochwertige Maschinen, Fahrzeuge und Technologieprodukte selbst und verdrängt europäische Anbieter sowohl auf dem chinesischen Markt als auch in Drittstaaten.",
+      "body": [
+        "Die EZB verweist darauf, dass sich Chinas industrielle Struktur in Richtung höherwertiger und technologieintensiver Produktion verschoben hat. Dadurch konkurrieren chinesische Unternehmen zunehmend direkt mit europäischen Maschinenbauern, Fahrzeugherstellern und anderen Industriezweigen.",
+        "Deutschland ist besonders betroffen, weil sein Exportprofil dem chinesischen in vielen Produktgruppen stärker ähnelt als das anderer EU-Länder. Gleichzeitig importiert China weniger europäische Industriegüter, weil heimische Hersteller einen größeren Teil der Nachfrage abdecken.",
+        "Für deutsche Unternehmen erhöht das den Anpassungsdruck bei Kosten, Innovation und Absatzmärkten. Kurzfristig kann stärkere Konkurrenz Marktanteile und Margen belasten; langfristig hängt die Wirkung davon ab, wie schnell Unternehmen neue Technologien und Produkte entwickeln."
+      ],
+      "why_it_matters": "Die Entwicklung betrifft zentrale deutsche Industriebranchen und damit Beschäftigung, Exporte und Investitionen.",
+      "open_questions": "Wie stark sich Marktanteile dauerhaft verschieben und welche industrie- oder handelspolitischen Antworten die EU wählt, bleibt offen.",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/chinas-industrial-rise-hits-german-manufacturers-hard-ecb-finds-2026-09-22/"
+        },
+        {
+          "name": "Europäische Zentralbank",
+          "url": "https://www.ecb.europa.eu/press/economic-bulletin/html/eb202606.en.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-ecb-rates",
+      "category": "wirtschaft",
+      "relevance_label": "EZB / Zinsen",
+      "title": "EZB hält an strafferem Kurs fest: Inflation bleibt deutlich über Ziel",
+      "hook": "Nach der Zinserhöhung im September erwartet die EZB für 2026 im Durchschnitt drei Prozent Inflation im Euroraum.",
+      "summary": "Die EZB hat ihre Leitzinsen im September um 25 Basispunkte angehoben. Hintergrund sind vor allem anhaltender Energiepreisdruck und die Erwartung, dass die Inflation nur langsam zum Zwei-Prozent-Ziel zurückkehrt.",
+      "body": [
+        "Die September-Projektion der EZB erwartet für 2026 eine durchschnittliche Gesamtinflation von 3,0 Prozent, für 2027 von 2,5 Prozent und für 2028 von 2,1 Prozent. Auch die Kerninflation ohne Energie und Lebensmittel bleibt in den Projektionen zunächst erhöht.",
+        "Der Nahostkonflikt und die hohen Energiepreise sind ein wichtiger Grund dafür, dass der Inflationsrückgang langsamer verläuft als zuvor erwartet. Gleichzeitig bleibt das Wachstum schwach, was die Geldpolitik vor einen Zielkonflikt stellt: höhere Zinsen dämpfen Preisdruck, belasten aber Investitionen und Nachfrage.",
+        "Die EZB betont, dass weitere Entscheidungen von neuen Daten abhängen. Die September-Anhebung legt damit keinen festen Zinspfad fest."
+      ],
+      "why_it_matters": "Leitzinsen beeinflussen Kredite, Immobilienfinanzierung, Unternehmensinvestitionen, Sparzinsen und den Wechselkurs im gesamten Euroraum.",
+      "open_questions": "Entscheidend ist, ob Energiepreise länger hoch bleiben und ob Lohn- und Dienstleistungsinflation genügend nachlassen.",
+      "sources": [
+        {
+          "name": "Europäische Zentralbank",
+          "url": "https://www.ecb.europa.eu/press/economic-bulletin/html/eb202606.en.html"
         }
       ]
     }
