@@ -1,34 +1,233 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-10-01",
   "status": "Aktuell",
-  "intro": "Der Morgenbrief vom 29. September bündelt die wichtigsten Entwicklungen aus Weltpolitik, Deutschland, Wissenschaft und Wirtschaft sowie aktuelle und fortwirkende Themen aus allen 16 Bundesländern. International stehen der Krieg in der Ukraine, die US-iranischen Verhandlungen und die Sicherheit zentraler Handelsrouten im Mittelpunkt. In Deutschland gewinnen Weltraumsicherheit und die jüngsten Gesetzgebungs- und Sozialdebatten an Gewicht. Wissenschaftlich reicht das Spektrum von Raumfahrt bis Reproduzierbarkeit, wirtschaftlich von EZB-Personalien bis Energie- und Konjunkturrisiken.",
+  "intro": "Der Morgenbrief vom 1. Oktober 2026 bündelt die wichtigsten Entwicklungen aus Weltpolitik, Deutschland, Wissenschaft und Wirtschaft sowie relevante Entwicklungen aus allen 16 Bundesländern. Im Mittelpunkt stehen die anhaltende Konfrontation zwischen den USA und Iran, der Krieg gegen die Ukraine, der heute gestartete Tankrabatt, der weiterhin schwache deutsche Arbeitsmarkt sowie zentrale landespolitische, wirtschaftliche und infrastrukturelle Entscheidungen.",
   "quick_read": [
     {
-      "title": "Ukraine",
-      "text": "Russland vergrößert seine Streitkräfte; Kiew warnt vor weiterer nordkoreanischer Unterstützung, während die Angriffswelle anhält."
+      "title": "Iran",
+      "text": "Die Konfrontation um Iran und die Straße von Hormus bleibt ungelöst; Washington und Teheran stehen weiter unter hohem militärischem und wirtschaftlichem Druck."
     },
     {
-      "title": "Iran",
-      "text": "Vermittler arbeiten weiter an einem US-iranischen Paket zu Hormus, Sanktionen und Nuklearinspektionen; zentrale Streitpunkte sind ungelöst."
+      "title": "Ukraine",
+      "text": "Russland setzt seine Angriffe fort und baut seine Streitkräfte weiter aus; eine belastbare Teilwaffenruhe ist nicht vereinbart."
     },
     {
       "title": "Deutschland",
-      "text": "Bundeswehr und Industrie bauen die Zusammenarbeit für militärische Weltraumfähigkeiten aus."
+      "text": "Seit heute gilt der neue Tankrabatt; die Energiesteuerentlastung soll hohe Kraftstoffpreise abfedern."
     },
     {
-      "title": "Wissenschaft",
-      "text": "NASA wertet die gescheiterte Swift-Rettungsmission als wichtigen Technologietest für künftige Satellitenwartung."
+      "title": "Arbeitsmarkt",
+      "text": "Die Arbeitslosigkeit sank im September auf 2,994 Millionen, saisonbereinigt stieg sie jedoch um 12.000."
     },
     {
-      "title": "Wirtschaft",
-      "text": "Schnabels angekündigter Wechsel zum IWF verschärft die Debatte über die künftige Führung der EZB."
+      "title": "EZB",
+      "text": "Nach der September-Zinserhöhung bleiben Energiepreise und die weitere Inflationsentwicklung zentrale Risiken."
     },
     {
       "title": "Länder",
-      "text": "Energieinfrastruktur, Regierungsbildung, Hochschulfinanzierung, Verkehr und Gerichtsentscheidungen prägen die Länderübersicht."
+      "text": "Regierungsbildung, Haushalte, Energieinfrastruktur, Kliniken, Arbeitsmarkt und Verkehr prägen die Länderlage."
+    },
+    {
+      "title": "Bundesländer",
+      "text": "Alle 16 Länder sind in der heutigen Ausgabe vertreten; mangels heutiger Staging-Dateien wurden die Länder direkt aus aktuellen und fortwirkenden Quellen zusammengestellt."
     }
   ],
   "stories": [
+    {
+      "id": "2026-10-01-inland-tankrabatt",
+      "category": "inland",
+      "relevance_label": "Energie / Verbraucher",
+      "title": "Neuer Tankrabatt gilt seit heute",
+      "hook": "Seit Mitternacht greift die befristete Senkung der Energiesteuer auf Benzin und Diesel. Die Entlastung soll einen Teil des jüngsten Energiepreisschocks auffangen.",
+      "summary": "Bundestag und Bundesrat hatten die Maßnahme im Eilverfahren beschlossen. Ob die steuerliche Entlastung vollständig an den Zapfsäulen ankommt, hängt von Beschaffungspreisen, Raffineriemargen und Wettbewerb ab.",
+      "body": [
+        "Seit dem 1. Oktober gilt die neue Entlastung bei der Energiesteuer auf Benzin und Diesel. Nach Angaben der Bundesregierung soll die Maßnahme Verbraucher und Unternehmen angesichts der stark gestiegenen Kraftstoffpreise kurzfristig entlasten. Die Regelung ist befristet und Teil eines größeren Pakets, das auch mehr Preistransparenz vorsieht.",
+        "Die rechnerische Steuerentlastung bedeutet nicht automatisch, dass Kraftstoff an jeder Tankstelle im gleichen Umfang billiger wird. Tankstellenpreise werden zusätzlich von Rohölnotierungen, Raffineriekosten, regionalem Wettbewerb, Lagerbeständen und dem Wechselkurs beeinflusst. Erste Marktbeobachtungen zeigen gleichwohl sinkende Preise an zahlreichen Stationen.",
+        "Finanz- und energiepolitisch ist die Maßnahme ein klassischer Zielkonflikt. Sie senkt kurzfristig die Belastung von Haushalten und Unternehmen, kostet den Staat aber Einnahmen und reduziert den Preisanreiz zum Energiesparen. Die Bundesregierung begründet den Schritt mit der außergewöhnlichen Belastung durch die internationale Energiekrise.",
+        "Entscheidend wird in den kommenden Tagen sein, wie viel der Entlastung tatsächlich bei den Endpreisen ankommt. Wettbewerbsbehörden und Marktbeobachter können anhand der Preisentwicklung beurteilen, ob sich Steueränderung und Großhandelspreise plausibel in den Zapfsäulenpreisen widerspiegeln."
+      ],
+      "why_it_matters": "Kraftstoffpreise wirken unmittelbar auf private Haushalte, Logistik, Handwerk und über Transportkosten auf die allgemeine Preisentwicklung.",
+      "open_questions": "Wie groß die tatsächliche Entlastung je Liter ausfällt und ob weitere energiepolitische Maßnahmen nötig werden, bleibt von der Markt- und Sicherheitslage abhängig.",
+      "sources": [
+        {
+          "name": "Bundesregierung",
+          "url": "https://www.bundesregierung.de/breg-de/aktuelles/massnahmen-gegen-spritpreise-2410850"
+        },
+        {
+          "name": "tagesschau",
+          "url": "https://www.tagesschau.de/wirtschaft/verbraucher/faq-tankrabatt-100.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-wirtschaft-arbeitsmarkt",
+      "category": "wirtschaft",
+      "relevance_label": "Arbeitsmarkt",
+      "title": "Herbstbelebung am Arbeitsmarkt bleibt schwach",
+      "hook": "Die Arbeitslosigkeit ist im September auf 2,994 Millionen gesunken. Saisonbereinigt nahm sie jedoch um 12.000 zu.",
+      "summary": "Die Arbeitslosenquote sank gegenüber August um 0,1 Punkte auf 6,4 Prozent. Gegenüber dem Vorjahr gibt es 40.000 Arbeitslose mehr; auch die sozialversicherungspflichtige Beschäftigung liegt unter Vorjahresniveau.",
+      "body": [
+        "Die übliche Herbstbelebung hat den deutschen Arbeitsmarkt im September nur begrenzt erreicht. Nach Angaben der Bundesagentur für Arbeit sank die Zahl der Arbeitslosen gegenüber August um 67.000 auf 2,994 Millionen. Saisonbereinigt, also nach Herausrechnung typischer jahreszeitlicher Schwankungen, stieg sie jedoch um 12.000.",
+        "Auch der Vorjahresvergleich bleibt schwach. Die Zahl der Arbeitslosen liegt um 40.000 höher als im September 2025. Die sozialversicherungspflichtige Beschäftigung lag nach den zuletzt verfügbaren Hochrechnungen im Juli bei 34,68 Millionen und damit 84.000 unter dem Vorjahreswert. Die gesamte Erwerbstätigkeit sank im August saisonbereinigt ebenfalls.",
+        "Etwas günstiger ist das Bild bei der Kurzarbeit. Für Juli weist die BA vorläufig 118.000 Beschäftigte mit konjunkturellem Kurzarbeitergeld aus, deutlich weniger als ein Jahr zuvor. Gleichzeitig bleibt die Nachfrage nach Arbeitskräften verhalten. Der BA-X stieg zwar im September leicht, signalisiert aber noch keinen breit getragenen Einstellungsaufschwung.",
+        "Die Daten passen zu einer Konjunktur, die sich nur langsam stabilisiert. Öffentliche Investitionen und einzelne Branchen können Wachstum erzeugen, ohne dass Unternehmen sofort in größerem Umfang neue Stellen schaffen. Für eine nachhaltige Trendwende wären breitere private Investitionen und eine stärkere Nachfrage erforderlich."
+      ],
+      "why_it_matters": "Der Arbeitsmarkt entscheidet über Einkommen, Konsum, Sozialbeiträge und die Tragfähigkeit der öffentlichen Haushalte.",
+      "open_questions": "Ob die erwartete konjunkturelle Belebung im Winterhalbjahr in Beschäftigung übersetzt wird, bleibt offen.",
+      "sources": [
+        {
+          "name": "Bundesagentur für Arbeit",
+          "url": "https://www.arbeitsagentur.de/presse/2026-37-arbeitsmarkt-im-september-2026"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-state-bw-kliniken",
+      "category": "bundesland",
+      "state": "Baden-Württemberg",
+      "relevance_label": "Gesundheit / Kommunen",
+      "title": "Land unterstützt kommunale Kliniken und erweitert Haushaltsspielraum",
+      "hook": "Baden-Württemberg reagiert auf die angespannte Finanzlage von Kommunen und Krankenhäusern. Parallel werden zusätzliche Mittel für Schulen und Polizei mobilisiert.",
+      "summary": "Die Landespolitik richtet zusätzliche finanzielle Spielräume auf kommunale Infrastruktur und öffentliche Dienste aus. Die Maßnahmen stehen vor dem Hintergrund steigender Personal-, Sozial- und Klinikkosten.",
+      "body": [
+        "Baden-Württemberg stellt zusätzliche Mittel für finanziell belastete Kommunen und kommunale Kliniken bereit. Zugleich hat die Landesregierung ihren Haushaltsspielraum erweitert, um unter anderem zusätzliche Stellen in Schulen und Polizei zu finanzieren.",
+        "Die Maßnahmen reagieren auf strukturellen Kostendruck. Besonders Krankenhäuser leiden unter gestiegenen Personal- und Betriebskosten, während Kommunen zugleich Investitionen in Schulen, Verkehr und soziale Infrastruktur finanzieren müssen. Die zusätzlichen Landesmittel lindern akute Engpässe, ersetzen aber keine längerfristige Reform der Krankenhaus- und Kommunalfinanzierung."
+      ],
+      "why_it_matters": "Kommunale Kliniken und Gemeinden tragen einen großen Teil der öffentlichen Daseinsvorsorge.",
+      "open_questions": "Wie dauerhaft die zusätzlichen Mittel wirken und welche strukturellen Reformen folgen, bleibt offen.",
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell-radio/info-date-am-morgen-tankrabatt-tritt-in-kraft-bw-landesregierung-hilft-kommunalen-kliniken-100.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-state-rp-mpk",
+      "category": "bundesland",
+      "state": "Rheinland-Pfalz",
+      "relevance_label": "Bund-Länder-Politik",
+      "title": "Rheinland-Pfalz führt Ministerpräsidentenkonferenz ein weiteres Jahr",
+      "hook": "Der turnusmäßige Wechsel des MPK-Vorsitzes findet heute nicht statt. Rheinland-Pfalz bleibt wegen der ungeklärten Regierungsbildung in Sachsen-Anhalt an der Spitze.",
+      "summary": "Die Länder haben die Verlängerung einstimmig vereinbart. Niedersachsen behält zugleich den Co-Vorsitz.",
+      "body": [
+        "Rheinland-Pfalz führt die Ministerpräsidentenkonferenz über den 1. Oktober hinaus für ein weiteres Jahr. Turnusgemäß wäre Sachsen-Anhalt an der Reihe gewesen, doch der dortige geschäftsführende Ministerpräsident hatte wegen der ungeklärten Regierungsbildung um eine abweichende Lösung gebeten.",
+        "Die MPK koordiniert gemeinsame Positionen der Länder gegenüber dem Bund und untereinander. Gerade bei Finanzbeziehungen, Migration, Energie, Infrastruktur und Verwaltungsreformen ist ein arbeitsfähiger Vorsitz organisatorisch wichtig. Die Entscheidung verändert keine verfassungsrechtlichen Kompetenzen, sichert aber Kontinuität in der politischen Koordination."
+      ],
+      "why_it_matters": "Rheinland-Pfalz behält damit eine zentrale koordinierende Rolle in der Bund-Länder-Politik.",
+      "open_questions": "Wie lange die Regierungsbildung in Sachsen-Anhalt dauert und welche Themen die nächste MPK dominieren, bleibt offen.",
+      "sources": [
+        {
+          "name": "SWR",
+          "url": "https://www.swr.de/swraktuell/rheinland-pfalz/rheinland-pfalz-leitet-ministerpraesidentenkonferenz-weiter-sachsen-anhalt-verzichtet-100.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-state-nds-mpk",
+      "category": "bundesland",
+      "state": "Niedersachsen",
+      "relevance_label": "Bund-Länder-Politik",
+      "title": "Niedersachsen behält Co-Vorsitz der Ministerpräsidentenkonferenz",
+      "hook": "Auch der Co-Vorsitz der Länder-Runde wechselt zum 1. Oktober nicht. Ministerpräsident Olaf Lies bleibt damit in einer zentralen Koordinierungsfunktion.",
+      "summary": "Die Länder reagieren auf die unklare Regierungsbildung in Sachsen-Anhalt mit personeller Kontinuität.",
+      "body": [
+        "Niedersachsen behält für ein weiteres Jahr den Co-Vorsitz der Ministerpräsidentenkonferenz. Die Regierungschefs der Länder hatten beschlossen, den ursprünglich vorgesehenen Wechsel wegen der politischen Situation in Sachsen-Anhalt auszusetzen.",
+        "Für Niedersachsen bedeutet dies zusätzliche koordinierende Verantwortung bei länderübergreifenden Themen. Dazu zählen insbesondere Infrastrukturfinanzierung, Energiepolitik, Migration, Verwaltungsmodernisierung und die Verteilung von Bundesmitteln."
+      ],
+      "why_it_matters": "Der MPK-Co-Vorsitz verschafft Niedersachsen eine hervorgehobene Rolle bei der Abstimmung gemeinsamer Länderpositionen.",
+      "open_questions": "Welche Kompromisse zwischen Bund und Ländern unter der fortgesetzten Doppelspitze erzielt werden, bleibt abzuwarten.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/niedersachsen-behaelt-co-vorsitz-der-ministerpraesidentenkonferenz%2Cmpk-166.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-state-sn-h2",
+      "category": "bundesland",
+      "state": "Sachsen",
+      "relevance_label": "Industrie / Energie",
+      "title": "Wasserstoff-Pipeline am Leipziger BMW-Werk nimmt Gestalt an",
+      "hook": "Am BMW-Standort Leipzig beginnt ein wichtiges Infrastrukturprojekt für die industrielle Wasserstoffversorgung.",
+      "summary": "Die Pipeline soll den Einsatz von Wasserstoff in industriellen Prozessen erleichtern und ist Teil des Aufbaus regionaler Netze.",
+      "body": [
+        "Am Leipziger BMW-Werk ist der Startschuss für eine Wasserstoff-Pipeline gefallen. Das Projekt verbindet Industriepolitik mit dem Aufbau einer neuen Energieinfrastruktur und soll perspektivisch den Einsatz von Wasserstoff in Produktionsprozessen erleichtern.",
+        "Für die Wirtschaftlichkeit solcher Netze sind Auslastung, Herkunft und Preis des Wasserstoffs entscheidend. Der infrastrukturelle Aufbau schafft zunächst die technische Voraussetzung; ob Wasserstoff im großen Maßstab fossile Energieträger ersetzt, hängt von Erzeugungskapazitäten, Regulierung und langfristigen Lieferverträgen ab."
+      ],
+      "why_it_matters": "Sachsen verfügt über energieintensive Industrie und große Automobilstandorte; verfügbare Wasserstoffnetze können Standortentscheidungen beeinflussen.",
+      "open_questions": "Wann ausreichende Mengen wettbewerbsfähigen Wasserstoffs verfügbar sind, bleibt die zentrale wirtschaftliche Frage.",
+      "sources": [
+        {
+          "name": "MDR Sachsenspiegel",
+          "url": "https://www.mdr.de/tv/programm/sendung-5101376.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-state-st-landtag",
+      "category": "bundesland",
+      "state": "Sachsen-Anhalt",
+      "relevance_label": "Landespolitik",
+      "title": "Neuer Landtag bereitet konstituierende Sitzung am 6. Oktober vor",
+      "hook": "Nach der Landtagswahl laufen die Vorbereitungen für die erste Sitzung des neuen Parlaments. Die Regierungsbildung ist weiterhin nicht abgeschlossen.",
+      "summary": "Bei der Konstituierung werden unter anderem Landtagspräsidium und parlamentarische Strukturen festgelegt.",
+      "body": [
+        "Der neu gewählte Landtag Sachsen-Anhalts soll am 6. Oktober erstmals zusammentreten. Neben organisatorischen Entscheidungen steht insbesondere die Wahl des Landtagspräsidenten im Mittelpunkt. Die Mehrheitsverhältnisse nach der Wahl machen die Besetzung parlamentarischer Spitzenämter politisch besonders relevant.",
+        "Parallel bleibt die Regierungsbildung offen. Die AfD wurde stärkste Kraft, verfügt aber über keine eigene Mehrheit. Die übrigen Parteien müssen klären, welche Gesprächs- und Koalitionskonstellationen tragfähig sind. Bis zur Bildung einer neuen Regierung bleibt die bisherige Landesregierung geschäftsführend im Amt."
+      ],
+      "why_it_matters": "Die Konstituierung legt die Arbeitsfähigkeit und Machtverteilung des neuen Landtags fest.",
+      "open_questions": "Welche Mehrheit sich für Präsidium und Regierung bildet, ist weiterhin offen.",
+      "sources": [
+        {
+          "name": "MDR",
+          "url": "https://www.mdr.de/nachrichten-leicht/leichte-sprache-sachsen-anhalt-erste-sitzung-landtag-100.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-state-hh-haushalt",
+      "category": "bundesland",
+      "state": "Hamburg",
+      "relevance_label": "Haushalt",
+      "title": "Hamburg muss 2026 knapp eine Milliarde Euro zusätzlich finanzieren",
+      "hook": "Der Nachtragshaushalt bleibt eines der zentralen finanzpolitischen Themen der Stadt. Haupttreiber sind Pensionen, Sozialleistungen und Unterbringungskosten.",
+      "summary": "Der Senat hat einen Nachtrag beschlossen; die Bürgerschaft muss zustimmen.",
+      "body": [
+        "Hamburg benötigt für den laufenden Haushalt knapp eine Milliarde Euro mehr als ursprünglich eingeplant. Den größten Einzelposten bilden zusätzliche Pensionsrückstellungen; hinzu kommen höhere Ausgaben für Erziehungshilfen, Unterbringung, Kitas und Personal.",
+        "Der Senat will die Mehrbelastung aus Rücklagen decken. Finanzsenator Andreas Dressel warnt zugleich vor deutlich kleineren Spielräumen in den kommenden Jahren. Damit verbindet sich die kurzfristige Haushaltskorrektur mit der längerfristigen Debatte über Sozialausgaben, Personal und Investitionen."
+      ],
+      "why_it_matters": "Der Nachtrag beeinflusst Hamburgs finanzielle Spielräume für Infrastruktur, Bildung und soziale Leistungen.",
+      "open_questions": "Welche zusätzlichen Spar- oder Reformmaßnahmen im Doppelhaushalt 2027/28 notwendig werden, bleibt Gegenstand der parlamentarischen Beratungen.",
+      "sources": [
+        {
+          "name": "NDR",
+          "url": "https://www.ndr.de/nachrichten/hamburg/hamburger-haushalt-2026-senat-will-nachschlag-von-knapp-einer-milliarde%2Chaushalt-340.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-state-he-arbeitsmarkt",
+      "category": "bundesland",
+      "state": "Hessen",
+      "relevance_label": "Arbeitsmarkt",
+      "title": "Hessische Herbstbelebung fällt schwächer als üblich aus",
+      "hook": "Die Arbeitslosenquote sinkt auf 5,9 Prozent, saisonbereinigt steigt die Arbeitslosigkeit jedoch.",
+      "summary": "Im September waren 210.403 Menschen arbeitslos gemeldet. Besonders die langfristig gestiegene Jugendarbeitslosigkeit bleibt problematisch.",
+      "body": [
+        "Hessens Arbeitsmarkt zeigt im September nur eine gedämpfte saisonale Belebung. Die Zahl der Arbeitslosen sank gegenüber August um 4.439 auf 210.403, die Quote auf 5,9 Prozent. Saisonbereinigt nahm die Arbeitslosigkeit jedoch um rund 2.000 Personen zu.",
+        "Die Regionaldirektion verweist zugleich auf eine höhere Zahl neu gemeldeter Stellen, sieht darin aber noch keine Trendwende. Besonders auffällig ist die Jugendarbeitslosigkeit: Sie liegt deutlich über dem Niveau vor der Pandemie, wobei fehlende Berufsabschlüsse eine zentrale Rolle spielen."
+      ],
+      "why_it_matters": "Arbeitsmarktentwicklung und industrielle Beschäftigung sind zentrale Indikatoren für die wirtschaftliche Lage Hessens.",
+      "open_questions": "Ob die höhere Zahl neuer Stellen in den kommenden Monaten zu einer breiteren Beschäftigungsbelebung führt, bleibt offen.",
+      "sources": [
+        {
+          "name": "Bundesagentur für Arbeit – Regionaldirektion Hessen",
+          "url": "https://www.arbeitsagentur.de/vor-ort/rd-h/presse/2026-18-arbeitsmarkt-im-september"
+        }
+      ]
+    },
     {
       "id": "2026-09-29-world-ukraine-army",
       "category": "weltpolitik",
